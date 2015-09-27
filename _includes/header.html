@@ -1,27 +1,285 @@
 <header class="site-header">
-
-  <div class="wrapper">
-
-    <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
-
-    <nav class="site-nav">
-      <a href="#" class="menu-icon">
-        <svg viewBox="0 0 18 15">
-          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
-          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
-          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
-        </svg>
-      </a>
-
-      <div class="trigger">
-        {% for page in site.pages %}
-          {% if page.title %}
-          <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-          {% endif %}
-        {% endfor %}
+  <div class="light-blue darken-1" id="page-header">
+      <div class="container">
+          <div class="hide-on-med-and-down">
+              <div class="right">
+                  <a class="toggle-navmenu btn-floating btn-at-topright waves-effect waves-light deep-orange lighten-2">
+                      <i class="mdi-navigation-menu"></i>
+                  </a>
+                  <a class="toggle-navapp btn-floating btn-at-topright waves-effect waves-light pink lighten-3">
+                      <i class="mdi-action-extension"></i>
+                  </a>
+                  <a class="toggle-navfollow btn-floating btn-at-topright waves-effect waves-light lime lighten-1">
+                      <i class="mdi-action-favorite-outline"></i>
+                  </a>
+                  <a class="toggle-navsearch btn-floating btn-at-topright waves-effect waves-light light-blue lighten-4">
+                      <i class="mdi-action-search"></i>
+                  </a>
+              </div>
+              <div id="site-title" style="padding-left:15px;">
+                  <a class="white-text" href="/">
+                      Pure's app
+                  </a>
+              </div>
+              <div class="grey-text text-lighten-4" id="site-description" style="padding-left:15px;">
+                  บล็อกเล็กๆของเพียว
+              </div>
+          </div>
+          <div class="hide-on-large-only center-align">
+              <div id="site-title">
+                  <a class="white-text" href="/">
+                      Pure's app
+                  </a>
+              </div>
+              <div class="grey-text text-lighten-4" id="site-description">
+                  บล็อกเล็กๆของเพียว
+              </div>
+              <div class="center-align" style="margin-top:15px;">
+                  <a class="toggle-navmenu btn-floating btn-at-topright waves-effect waves-light deep-orange lighten-2">
+                      <i class="mdi-navigation-menu"></i>
+                  </a>
+                  <a class="toggle-navapp btn-floating btn-at-topright waves-effect waves-light pink lighten-3">
+                      <i class="mdi-action-extension"></i>
+                  </a>
+                  <a class="toggle-navfollow btn-floating btn-at-topright waves-effect waves-light lime lighten-1">
+                      <i class="mdi-action-favorite-outline"></i>
+                  </a>
+                  <a class="toggle-navsearch btn-floating btn-at-topright waves-effect waves-light light-blue lighten-4">
+                      <i class="mdi-action-search"></i>
+                  </a>
+              </div>
+          </div>
       </div>
-    </nav>
-
   </div>
-
+  <nav class="light-blue darken-2 nav-menubar" id="nav-menu">
+      <div class="container">
+          <div class="nav-wrapper" style="text-align: center">
+              <ul class="left hide-on-med-and-down nav-menu-set" id="nav-menu-large">
+                  <li>
+                      <a href="/">หน้าหลัก</a>
+                  </li>
+                  <li>
+                      <a class="dropdown-navbutton" data-activates="facebook-app-dropdown-large" href="#!">แอปเฟสบุ๊ค</a>
+                  </li>
+                  <li>
+                      <a href="https://www.facebook.com/appmadebypure" target="_blank">แฟนเพจ</a>
+                  </li>
+                  <li>
+                      <a href="/about">ทำความรู้จัก</a>
+                  </li>
+              </ul>
+              <ul class="hide-on-small-only hide-on-large-only nav-menu-set" id="nav-menu-medium" style="display: inline-block;">
+                  <li>
+                      <a href="/">หน้าหลัก</a>
+                  </li>
+                  <li>
+                      <a class="dropdown-navbutton" data-activates="facebook-app-dropdown-medium" href="#!">แอปเฟสบุ๊ค</a>
+                  </li>
+                  <li>
+                      <a href="https://www.facebook.com/appmadebypure" target="_blank">แฟนเพจ</a>
+                  </li>
+                  <li>
+                      <a href="/about">ทำความรู้จัก</a>
+                  </li>
+              </ul>
+              <ul class="hide-on-med-and-up nav-menu-set" id="nav-menu-small" style="display: inline-block;">
+                  <li>
+                      <a href="/"> หน้าหลัก</a>
+                  </li>
+                  <li>
+                      <a class="dropdown-navbutton" data-activates="facebook-app-dropdown-small" href="#!">แอปเฟสบุ๊ค</a>
+                  </li>
+                  <li>
+                      <a class="dropdown-navbutton" data-activates="menunav-dropdown-small" href="#!">
+                          <i class="mdi-navigation-more-horiz" style="font-size:1.5rem;" ></i>
+                      </a>
+                  </li>
+              </ul>
+              <ul class="dropdown-content" id="facebook-app-dropdown-large">
+                  <li>
+                      <a href="https://www.pureapp.in.th/p/topcomment.html">ใครคอมเม้นคุณมากที่สุด</a>
+                  </li>
+                  <li>
+                      <a href="https://www.pureapp.in.th/p/toplike.html">ใครไลค์ฉันมากที่สุด</a>
+                  </li>
+                  <li>
+                      <a href="https://www.pureapp.in.th/status-post">ฉันอัพสเตตัสไปกี่ครั้งแล้ว</a>
+                  </li>
+                  <li>
+                      <a href="https://www.facebook.com/appmadebypure">แจ้งปัญหา</a>
+                  </li>
+              </ul>
+              <ul class="dropdown-content" id="facebook-app-dropdown-medium">
+                  <li>
+                      <a href="https://www.pureapp.in.th/p/topcomment.html">ใครคอมเม้นคุณมากที่สุด</a>
+                  </li>
+                  <li>
+                      <a href="https://www.pureapp.in.th/p/toplike.html">ใครไลค์ฉันมากที่สุด</a>
+                  </li>
+                  <li>
+                      <a href="https://www.pureapp.in.th/status-post">ฉันอัพสเตตัสไปกี่ครั้งแล้ว</a>
+                  </li>
+                  <li>
+                      <a href="https://www.facebook.com/appmadebypure">แจ้งปัญหา</a>
+                  </li>
+              </ul>
+              <ul class="dropdown-content" id="facebook-app-dropdown-small">
+                  <li>
+                      <a href="https://www.pureapp.in.th/p/topcomment.html">ใครคอมเม้นคุณมากที่สุด</a>
+                  </li>
+                  <li>
+                      <a href="https://www.pureapp.in.th/p/toplike.html">ใครไลค์ฉันมากที่สุด</a>
+                  </li>
+                  <li>
+                      <a href="https://www.pureapp.in.th/status-post">ฉันอัพสเตตัสไปกี่ครั้งแล้ว</a>
+                  </li>
+                  <li>
+                      <a href="https://www.facebook.com/appmadebypure">แจ้งปัญหา</a>
+                  </li>
+              </ul>
+              <ul class="dropdown-content" id="menunav-dropdown-small">
+                  <li>
+                      <a href="https://www.facebook.com/appmadebypure" target="_blank">แฟนเพจ</a>
+                  </li>
+                  <li>
+                      <a href="#!">ทำความรู้จัก</a>
+                  </li>
+              </ul>
+          </div>
+      </div>
+  </nav>
+  <nav class="light-blue darken-2 nav-menubar" id="nav-app" style="display:none;">
+      <div class="container">
+          <div class="nav-wrapper" style="text-align: center">
+              <ul class="left hide-on-med-and-down nav-app-set" id="nav-app-large">
+                  <li>
+                      <a href="#">แอปของผม</a>
+                  </li>
+                  <li>
+                      <a href="https://mumu.irin.in.th" target="_blank">มูมู่</a>
+                  </li>
+                  <li>
+                      <a href="https://irin.in.th/" target="_blank">ไอริน</a>
+                  </li>
+                  <li>
+                      <a href="https://github.com/pureexe/th-news" target="_blank">TH-news</a>
+                  </li>
+              </ul>
+              <ul class="hide-on-small-only hide-on-large-only nav-app-set" id="nav-app-medium" style="display: inline-block;">
+                  <li>
+                      <a href="#">แอปของผม</a>
+                  </li>
+                  <li>
+                      <a href="https://mumu.irin.in.th" target="_blank">มูมู่</a>
+                  </li>
+                  <li>
+                      <a href="https://irin.in.th/" target="_blank">ไอริน</a>
+                  </li>
+                  <li>
+                      <a href="https://github.com/pureexe/th-news" target="_blank">TH-news</a>
+                  </li>
+              </ul>
+              <ul class="hide-on-med-and-up nav-app-set" id="nav-app-small" style="display: inline-block;">
+                  <li>
+                      <a href="#">แอปของผม</a>
+                  </li>
+                  <li>
+                      <a href="https://mumu.irin.in.th" target="_blank">มูมู่</a>
+                  </li>
+                  <li>
+                      <a class="dropdown-navbutton" id="btn-menuapp-dropdown-small" data-activates="menuapp-dropdown-small" href="#!">
+                          <i class="mdi-navigation-more-horiz" style="font-size:1.5rem;" ></i>
+                      </a>
+                  </li>
+              </ul>
+              <ul class="dropdown-content" id="menuapp-dropdown-small">
+                  <li>
+                      <a href="https://irin.in.th/" target="_blank">ไอริน</a>
+                  </li>
+                  <li>
+                      <a href="https://github.com/pureexe/th-news" target="_blank">TH-news</a>
+                  </li>
+              </ul>
+          </div>
+      </div>
+  </nav>
+  <nav class="light-blue darken-2 nav-menubar" id="nav-follow" style="display:none;">
+      <div class="container">
+          <div class="nav-wrapper" style="text-align: center">
+              <ul class="left hide-on-med-and-down nav-follow-set" id="nav-follow-large">
+                  <li>
+                      <a href="#">ติดตาม</a>
+                  </li>
+                  <li>
+                      <a href="https://www.facebook.com/appmadebypure" target="_blank">แฟนเพจ</a>
+                  </li>
+                  <li>
+                      <a href="https://github.com/pureexe" target="_blank">Github</a>
+                  </li>
+                  <li>
+                      <a href="https://plus.google.com/+pakkaponphongtawee" target="_blank">Google+</a>
+                  </li>
+                  <li>
+                      <a href="https://www.youtube.com/channel/UCWB-vERbWJom4RypIK9ZbIg" target="_blank">Youtube</a>
+                  </li>
+              </ul>
+              <ul class="hide-on-small-only hide-on-large-only nav-follow-set" id="nav-follow-medium" style="display: inline-block;">
+                  <li>
+                      <a href="#">ติดตาม</a>
+                  </li>
+                  <li>
+                      <a href="https://www.facebook.com/appmadebypure" target="_blank">แฟนเพจ</a>
+                  </li>
+                  <li>
+                      <a href="https://github.com/pureexe" target="_blank">Github</a>
+                  </li>
+                  <li>
+                      <a href="https://plus.google.com/+pakkaponphongtawee" target="_blank">Google+</a>
+                  </li>
+                  <li>
+                      <a href="https://www.youtube.com/channel/UCWB-vERbWJom4RypIK9ZbIg" target="_blank">Youtube</a>
+                  </li>
+              </ul>
+              <ul class="hide-on-med-and-up nav-follow-set" id="nav-follow-small" style="display: inline-block;">
+                  <li>
+                      <a href="#">ติดตาม</a>
+                  </li>
+                  <li>
+                      <a href="https://www.facebook.com/appmadebypure" target="_blank">แฟนเพจ</a>
+                  </li>
+                  <li>
+                      <a class="dropdown-navbutton" data-activates="menufollow-dropdown-small" href="#!">
+                          <i class="mdi-navigation-more-horiz" style="font-size:1.5rem;" ></i>
+                      </a>
+                  </li>
+              </ul>
+              <ul class="dropdown-content" id="menufollow-dropdown-small">
+                  <li>
+                      <a href="https://github.com/pureexe" target="_blank">Github</a>
+                  </li>
+                  <li>
+                      <a href="https://plus.google.com/+pakkaponphongtawee" target="_blank">Google+</a>
+                  </li>
+                  <li>
+                      <a href="https://www.youtube.com/channel/UCWB-vERbWJom4RypIK9ZbIg" target="_blank">Youtube</a>
+                  </li>
+              </ul>
+          </div>
+      </div>
+  </nav>
+  <nav class="light-blue darken-2 nav-menubar" id="nav-search" style="display:none;">
+      <div class="container">
+          <div class="nav-wrapper" style="text-align: center">
+              <form action="/search">
+                  <div class="input-field" id="input-field-search">
+                      <input id="search-on-input" name="q" placeholder="ค้นหา" type="search" ></i>
+                      <label for="search">
+                          <i class="mdi-action-search" ></i>
+                      </label>
+                      <i class="mdi-navigation-close" ></i>
+                  </div>
+              </form>
+          </div>
+      </div>
+  </nav>
 </header>
