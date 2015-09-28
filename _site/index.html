@@ -326,8 +326,18 @@
 
 </footer>
 
-    <script async src="/js/jquery-2.1.4.min.js"></script>
-<script async src="/js/materialize.min.js"></script>
+    <script>
+[
+  '/js/jquery-2.1.4.min.js',
+  '/js/materialize.min.js',
+  '/js/theme.js'
+].forEach(function(src) {
+  var script = document.createElement('script');
+  script.src = src;
+  script.async = false;
+  document.head.appendChild(script);
+});
+</script>
 <script>
       var cb = function(href) {
         var l = document.createElement('link'); l.rel = 'stylesheet';
@@ -340,7 +350,6 @@
       if (raf) raf(cb);
       else window.addEventListener('load', cb);
 </script>
-<script async src="/js/theme.js"></script>
 <div id="fb-root"></div>
 <script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
