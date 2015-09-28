@@ -1,20 +1,13 @@
 <script>{% include jquery-2.1.4.min.js %}</script>
 <script>{% include materialize.min.js %}</script>
 <script>
-      var loadStyle = function(href) {
+      var cb = function(href) {
         var l = document.createElement('link'); l.rel = 'stylesheet';
-        l.href = href;
+        l.href = '/css/main.css';
         var h = document.getElementsByTagName('head')[0]; h.parentNode.insertBefore(l, h);
       };
       var raf = requestAnimationFrame || mozRequestAnimationFrame ||
           webkitRequestAnimationFrame || msRequestAnimationFrame;
-      if (raf){
-        raf(loadStyle("/css/materialize.css"));
-        raf(loadStyle("/css/main.css"));
-      }
-      else{
-        window.addEventListener('load', loadStyle("/css/materialize.css"));
-        window.addEventListener('load', loadStyle("/css/main.css"));
-      };
-    </script>
+      if (raf) raf(cb);
+      else window.addEventListener('load', cb);
 </script>
