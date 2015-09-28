@@ -1,7 +1,5 @@
 <script async src="/js/jquery-2.1.4.min.js"></script>
 <script async src="/js/materialize.min.js"></script>
-<div id="fb-root"></div>
-<script async src="/js/fbsdk-loader.js"></script>
 <script>
       var cb = function(href) {
         var l = document.createElement('link'); l.rel = 'stylesheet';
@@ -14,3 +12,12 @@
       if (raf) raf(cb);
       else window.addEventListener('load', cb);
 </script>
+<script async src="/js/theme.js"></script>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4&appId=351070565012663";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
