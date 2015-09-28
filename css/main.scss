@@ -2,51 +2,168 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 @charset "utf-8";
-
-
-
-// Our variables
-$base-font-family: Helvetica, Arial, sans-serif;
-$base-font-size:   16px;
-$small-font-size:  $base-font-size * 0.875;
-$base-line-height: 1.5;
-
-$spacing-unit:     30px;
-
-$text-color:       #111;
-$background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
-
-$grey-color:       #828282;
-$grey-color-light: lighten($grey-color, 40%);
-$grey-color-dark:  darken($grey-color, 25%);
-
-// Width of the content area
-$content-width:    800px;
-
-$on-palm:          600px;
-$on-laptop:        800px;
-
-
-
-// Using media queries with like this:
-// @include media-query($on-palm) {
-//     .wrapper {
-//         padding-right: $spacing-unit / 2;
-//         padding-left: $spacing-unit / 2;
-//     }
-// }
 @mixin media-query($device) {
     @media screen and (max-width: $device) {
         @content;
     }
 }
+@media screen and (min-width: 993px) {
+  .container {
+    width: 85%;
+    padding-left: 0%;
+    padding-right: 0%;
+  }
+}
+@media screen and (max-width: 993px) {
+.container {
+padding-left: 0%;
+padding-right: 0%;
+}
+}
+@media screen and (max-width: 600px) {
+.container {
+width: 100%;
+padding-left: 0%;
+padding-right: 0%;
+}
+}
+body {
+background-color: #fafafa;
+padding:0px;
+}
+.widget{
 
+}
+.widget h2{
+	font-size:24px;
+}
+#site-title{
+color:white;
+font-size:24px;
+}
+#site-description{
+color:white;
+}
+#page-header{
+padding-top:15px;
+padding-bottom:15px;
+}
 
-
-// Import partials from `sass_dir` (defaults to `_sass`)
-@import
-        "base",
-        "layout",
-        "syntax-highlighting"
-;
+.card-titlepanel{
+	border-bottom: 1px solid rgba(160,160,160,0.2);
+	padding: 10px;
+}
+.collapsible-header {
+	background-color:rgba(255, 255, 255, 0);
+}
+li.archivedate{
+	padding-bottom: 0px;
+    padding-top: 0px;
+    margin-top: -20px;
+    margin-bottom: 0px;
+}
+.btn-at-topright{
+	height:50px;
+	width:50px;
+	margin: 3px;
+}
+.btn-at-topright i{
+	line-height:50px;
+}
+.dropdown-content li>a, .dropdown-content li>span{
+	font-size:1rem;
+}
+#headersec{
+	margin:0px;
+	padding:0px;
+}
+#Header1{
+	margin:0px;
+}
+.nav-wrapper>ul>li{
+	padding:0px;
+}
+@media screen and (max-width: 600px) {
+  .nav-wrapper>ul{
+    padding:0px;
+    height: 56px;
+    line-height: 56px;
+  }
+}
+@media screen and (min-width: 600px) {
+  .nav-wrapper>ul{
+      padding:0px;
+    height: 64px;
+    line-height: 64px;
+  }
+}
+.nav-wrapper>ul>li>ul>li{
+	padding:0px;
+}
+.nav-wrapper>ul>li>ul{
+  padding:0px;
+  line-height: 64px;
+}
+.widget ul{
+	padding:0px;
+}
+.widget {
+	margin:0px;
+}
+.widget>h2{
+	font-size: 22px;
+	line-height:0;
+	margin-top:30px;
+	margin-bottom:30px;
+}
+#tt-torrent a>img {
+  max-width: 100%;
+  height: auto;
+}
+.widget .post-body ul {
+  padding: 0;
+  margin: 0;
+}
+.card-content a>img{
+  max-width: 100%;
+  height: auto;
+}
+.card-content a{
+	margin-left:0px;
+	margin-right:0px;
+}
+.section {
+  margin:0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.dropdown-content{
+	z-index:10;
+}
+.blogtitle{
+	font-size:1.64rem;
+	margin-top:0.8rem;
+	margin-bottom:0.8rem;
+	margin-left:0.4rem;
+	margin-right:0.4rem;
+}
+.card-content > article > h2{
+	font-weight:bold;
+	margin-top:1.5rem;
+	margin-bottom:1.5rem;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 0.7rem;
+  font-size: 1.5rem;
+}
+.card-content > article > h3{
+	font-size:1.2rem;
+	font-weight:bold;
+	margin-top:1.3rem;
+	margin-bottom:1.3rem;
+}
+.card-content > article > h4{
+	font-size:1rem;
+	font-weight:bold;
+	margin-top:1.3rem;
+	margin-bottom:1.3rem;
+}
