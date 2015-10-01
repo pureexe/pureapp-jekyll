@@ -7,7 +7,6 @@
         @content;
     }
 }
-@import "materialize";
 @media screen and (min-width: 993px) {
   .container {
     width: 85%;
@@ -53,6 +52,13 @@ padding-bottom:15px;
 .card-titlepanel{
 	border-bottom: 1px solid rgba(160,160,160,0.2);
 	padding: 10px;
+}
+.post-title{
+  font-size: 1.64rem;
+      margin-top: 0.8rem;
+      margin-bottom: 0.8rem;
+      margin-left: 0.4rem;
+      margin-right: 0.4rem;
 }
 .collapsible-header {
 	background-color:rgba(255, 255, 255, 0);

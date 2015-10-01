@@ -1,26 +1,5 @@
-<script>
-[
-  '/js/jquery-2.1.4.min.js',
-  '/js/materialize.min.js',
-  '/js/theme.js',
-  '/js/fb-loader.js'
-].forEach(function(src) {
-  var script = document.createElement('script');
-  script.src = src;
-  script.async = false;
-  document.head.appendChild(script);
-});
-</script>
-<script>
-      var cb = function(href) {
-        var l = document.createElement('link'); l.rel = 'stylesheet';
-        l.href = '/css/main.css';
-        var h = document.getElementsByTagName('head')[0]; h.parentNode.insertBefore(l, h);
-        document.getElementsByTagName('body')[0].style.display = 'block';
-      };
-      var raf = requestAnimationFrame || mozRequestAnimationFrame ||
-          webkitRequestAnimationFrame || msRequestAnimationFrame;
-      if (raf) raf(cb);
-      else window.addEventListener('load', cb);
-</script>
+<script src="/js/jquery-2.1.4.min.js"></script>
+<script src="/js/materialize.min.js"></script>
+<script async src="/js/theme.js"></script>
+<script async src="/js/fb-loader.js"></script>
 <div id="fb-root"></div>

@@ -2,14 +2,37 @@
 layout: default
 ---
 <div class="post">
-
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
-    <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
-  </header>
-
-  <article class="post-content">
-    {{ content }}
-  </article>
-
+  <div class="card">
+    <div class="card-titlepanel center">
+      <a href="#"><h1 class="post-title">{{ page.title }}</h1></a>
+    </div>
+    <div class="card-content">
+      <article class="post-content">
+        {{ content }}
+      </article>
+    </div>
+    <div class="card-action">
+      <span>
+        <i class="mdi-device-access-time"></i>
+        <meta content="{{ post.date }}" itemprop="datePublished">
+        <span class="date-display" style="margin-right:0.5em;">
+          <span class="date">{{ page.date | date: "%d %B %Y" }}</span>
+        </span>
+        <div style="display:inline-block">
+          {% for tag in page.tags %}
+            <div class="chip">
+              <span class="grey-text text-darken-1" rel="tag" style="margin-right:0px;">
+                {{tag}}
+              </span>
+            </div>
+          {% endfor %}
+        </div>
+        </span>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-comment">
+      <div class="fb-comments" data-numposts="5" data-width="100%"></div>
+    </div>
+  </div>
 </div>
