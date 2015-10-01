@@ -21,7 +21,7 @@ layout: default
               <i class="mdi-device-access-time"></i>
               <meta content="{{ post.date }}" itemprop="datePublished">
               <span class="date-display" style="margin-right:0.5em;">
-                <span class="date">{{ post.date | date: "%d %B %Y" }}</span>
+                <span class="date">{{ post.date | date: "%d %B" | replace:'January','มกราคม' | replace:'February','กุมภาพันธ์' | replace:'March','มีนาคม' | replace:'April','เมษายน' | replace:'May','พฤษภาคม' | replace:'June','มิถุนายน' | replace:'July','กรกฏาคม' | replace:'August','สิงหาคม' | replace:'September','กันยายน' | replace:'October','ตุลาคม' | replace:'November','พฤศจิกายน' | replace:'December','ธันวาคม' }} {{ post.date | date: "%Y" | plus:"543"}}</span>
               </span>
               <div style="display:inline-block">
                 {% for tag in post.tags %}

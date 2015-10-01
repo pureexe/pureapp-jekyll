@@ -111,4 +111,13 @@ $(function() {
     $(".collapsible").collapsible({
         accordion: false
     });
+    $('.widget-postlist > .year > a,.widget-postlist > .year > .sublist > .month > a').click(function(event){
+      event.preventDefault();
+      $(this).parent().children('.sublist').toggle();
+      if($(this).parent().children('.cursor').text()=='▼'){
+        $(this).parent().children('.cursor').text('►');
+      }else{
+        $(this).parent().children('.cursor').text('▼');
+      }
+    });
 });

@@ -3,8 +3,8 @@ title: Pure's app
 email: me@pureapp.in.th
 description: บล็อกเล็กๆของเพียว
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "https://www.pureapp.in.th" # the base hostname & protocol for your site
-permalink: /:categories/:year/:month/:title.html
+url: "https://jekyll.pureapp.in.th" # the base hostname & protocol for your site
+permalink: /:year/:month/:title.html
 # paginate settings
 paginate: 5
 paginate_path: "/page/:num"
