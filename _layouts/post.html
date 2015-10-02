@@ -14,6 +14,12 @@ layout: default
     <div class="card-content">
       <meta itemprop="description" content="{{ page.excerpt | strip_html | strip_newlines | truncate: 340 }}"/>
       <article class="markdown-render" itemprop="articleBody">
+        {% assign rawExtension = page.path | split:"." | last %}
+        {% if rawExtension == "md" %}
+        <div class="center" style="margin-bottom: 20px;">
+          <img src="{{page.thumbnail}}" />
+        </div>
+        {% endif %}
         {{ content }}
       </article>
     </div>
