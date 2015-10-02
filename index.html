@@ -3,23 +3,26 @@ layout: default
 ---
       <!-- This loops through the paginated posts -->
       {% for post in paginator.posts %}
-        <div class="card">
+        <div class="card" itemscope itemtype='http://schema.org/BlogPosting'>
           {% if post.thumbnail %}
           <div class="card-image">
             <img src="{{ post.thumbnail }}" />
+            <meta itemprop="image" content="{{ post.thumbnail | prepend: site.baseurl | prepend: site.url }}"/>
           </div>
+          {% else %}
+          <meta content='https://1.bp.blogspot.com/-pjHgevwzkWw/VgUEXeKEWbI/AAAAAAAAa7k/-ibb2roD2eI/s640/rsz_mid.png' itemprop="image"/>
           {% endif %}
           <div class="card-content">
             <h5 class="site-post-card-title" itemprop="headline"><a href="{{ post.url }}">{{ post.title }}</a></h5>
-            <div class="content">
-              {{ post.excerpt | strip_html | strip_newlines | truncate: 340, "" }}
+            <div class="content" >
+              <span itemprop="description">{{ post.excerpt | strip_html | strip_newlines | truncate: 340, "" }}</span>
               <a href="{{ post.url }}"> อ่านต่อ... </a>
             </div>
           </div>
           <div class="card-action">
             <span>
               <i class="mdi-device-access-time"></i>
-              <meta content="{{ post.date }}" itemprop="datePublished">
+              <meta content="{{ post.date }}" property="datePublished">
               <span class="date-display" style="margin-right:0.5em;">
                 <span class="date">{{ post.date | date: "%d %B" | replace:'January','มกราคม' | replace:'February','กุมภาพันธ์' | replace:'March','มีนาคม' | replace:'April','เมษายน' | replace:'May','พฤษภาคม' | replace:'June','มิถุนายน' | replace:'July','กรกฏาคม' | replace:'August','สิงหาคม' | replace:'September','กันยายน' | replace:'October','ตุลาคม' | replace:'November','พฤศจิกายน' | replace:'December','ธันวาคม' }} {{ post.date | date: "%Y" | plus:"543"}}</span>
               </span>
