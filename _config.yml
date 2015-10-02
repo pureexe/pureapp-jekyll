@@ -3,7 +3,7 @@ title: Pure's app
 email: me@pureapp.in.th
 description: เว็บนี้คือบล็อกส่วนตัวของเพียว (ภัคพล พงษ์ทวี) เขียนขึ้นเพื่อเผยแพร่ ความรู้และโปรแกรมที่สร้างขึ้น ผมหวังว่าทุกท่านที่เข้ามาจะได้รับประโยชน์ไม่มากก็น้อย
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "https://jekyll.pureapp.in.th" # the base hostname & protocol for your site
+url: "https://www.pureapp.in.th" # the base hostname & protocol for your site
 permalink: /:year/:month/:title.html
 # paginate settings
 paginate: 5
