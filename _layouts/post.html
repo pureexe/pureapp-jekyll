@@ -6,7 +6,8 @@ layout: default
     <div class="card-titlepanel center">
       <a href="#"><h1 class="post-title" itemprop="headline">{{ page.title }}</h1></a>
       {% if page.thumbnail %}
-      <meta itemprop="image" content="{{ page.thumbnail }}"/>
+      {% if page.thumbnail %}{% assign selfHostThumbnail = page.thumbnail | split:"://" | size %}{% endif %}
+      <meta itemprop="image" content="{% if selfHostThumbnail == 1 %}{{ page.thumbnail | prepend: site.baseurl | prepend: site.url}}{% else %}{{page.thumbnail}}{% endif %}"/>
       {% else %}
       <meta content='{{" /assets/images/pureapp-logo-200.png " | prepend: site.baseurl | prepend: site.url }}' itemprop="image"/>
       {% endif %}

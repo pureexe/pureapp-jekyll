@@ -5,9 +5,10 @@ layout: default
       {% for post in paginator.posts %}
         <div class="card" itemscope itemtype='http://schema.org/BlogPosting'>
           {% if post.thumbnail %}
+          {% if post.thumbnail %}{% assign selfHostThumbnail = post.thumbnail | split:"://" | size %}{% endif %}
           <div class="card-image">
             <img src="{{ post.thumbnail }}" />
-            <meta itemprop="image" content="{{ post.thumbnail | prepend: site.baseurl | prepend: site.url }}"/>
+            <meta itemprop="image" content="{% if selfHostThumbnail == 1 %}{{ post.thumbnail | prepend: site.baseurl | prepend: site.url}}{% else %}{{post.thumbnail}}{% endif %}"/>
           </div>
           {% else %}
           <meta content='{{" /assets/images/pureapp-logo-200.png " | prepend: site.baseurl | prepend: site.url }}' itemprop="image"/>
