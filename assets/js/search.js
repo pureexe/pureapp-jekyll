@@ -68,7 +68,7 @@ $(function() {
         if(render){
           var cardTag="";
           post.tags.forEach(function(tag){
-            cardTag+="<div class='chip'><a href='/search.html?q="+tag+"&amp;type=tag' class='grey-text text-darken-1' rel='tag' style='margin-right:0px;'>"+tag+"</a></div> ";
+            cardTag+="<div class='chip'><a href='/search?q="+tag+"&amp;type=tag' class='grey-text text-darken-1' rel='tag' style='margin-right:0px;'>"+tag+"</a></div> ";
           });
           cardTag = "<div style='display:inline-block'>"+cardTag+"</div>";
           var cardImage = "<div class='card-image'><img src="+post.thumbnail+" /></div>"

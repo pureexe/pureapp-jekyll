@@ -270,7 +270,7 @@
   <nav class="light-blue darken-2 nav-menubar" id="nav-search" style="display:none;">
       <div class="container">
           <div class="nav-wrapper" style="text-align: center">
-              <form action="/search.html">
+              <form action="{{ "/search" | prepend: site.baseurl}} ">
                   <div class="input-field" id="input-field-search">
                       <input id="search-on-input" name="q" placeholder="ค้นหา" type="search" ></i>
                       <label for="search">
