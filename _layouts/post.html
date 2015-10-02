@@ -2,9 +2,14 @@
 layout: default
 ---
 <div class="post">
-  <div class="card">
+  <div class="card" itemscope itemtype='http://schema.org/BlogPosting'>
     <div class="card-titlepanel center">
-      <a href="#"><h1 class="post-title">{{ page.title }}</h1></a>
+      <a href="#"><h1 class="post-title" itemprop="headline">{{ page.title }}</h1></a>
+      {% if post.thumbnail %}
+      <meta itemprop="image" content="{{ post.thumbnail | prepend: site.baseurl | prepend: site.url }}"/>
+      {% else %}
+      <meta content='{{" /assets/images/pureapp-logo-200.png " | prepend: site.baseurl | prepend: site.url }}' itemprop="image"/>
+      {% endif %}
     </div>
     <div class="card-content">
       <article class="markdown-render">
