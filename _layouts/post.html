@@ -5,8 +5,8 @@ layout: default
   <div class="card" itemscope itemtype='http://schema.org/BlogPosting'>
     <div class="card-titlepanel center">
       <a href="#"><h1 class="post-title" itemprop="headline">{{ page.title }}</h1></a>
-      {% if post.thumbnail %}
-      <meta itemprop="image" content="{{ post.thumbnail | prepend: site.baseurl | prepend: site.url }}"/>
+      {% if page.thumbnail %}
+      <meta itemprop="image" content="{{ page.thumbnail | prepend: site.baseurl | prepend: site.url }}"/>
       {% else %}
       <meta content='{{" /assets/images/pureapp-logo-200.png " | prepend: site.baseurl | prepend: site.url }}' itemprop="image"/>
       {% endif %}
@@ -20,7 +20,7 @@ layout: default
     <div class="card-action">
       <span>
         <i class="mdi-device-access-time"></i>
-        <meta content="{{ post.date }}" itemprop="datePublished">
+        <meta content="{{ page.date }}" itemprop="datePublished">
         <span class="date-display" style="margin-right:0.5em;">
           <span class="date">{{ page.date | date: "%d %B" | replace:'January','มกราคม' | replace:'February','กุมภาพันธ์' | replace:'March','มีนาคม' | replace:'April','เมษายน' | replace:'May','พฤษภาคม' | replace:'June','มิถุนายน' | replace:'July','กรกฏาคม' | replace:'August','สิงหาคม' | replace:'September','กันยายน' | replace:'October','ตุลาคม' | replace:'November','พฤศจิกายน' | replace:'December','ธันวาคม' }} {{ page.date | date: "%Y" | plus:"543"}}</span>
         </span>
