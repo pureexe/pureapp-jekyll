@@ -13,10 +13,12 @@ body {
 }
 
 #site-title{
+line-height: 1.4;
 color:white;
 font-size:24px;
 }
 #site-description{
+line-height: 1.4;
 color:white;
 }
 #page-header{
@@ -137,5 +139,12 @@ li.archivedate{
   li.post{
     margin-left:2em;
     list-style-type: circle;
+  }
+}
+footer{
+  ul{
+    li{
+      line-height: 1.8rem
+    }
   }
 }

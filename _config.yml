@@ -10,3 +10,5 @@ paginate: 5
 paginate_path: "/page/:num"
 # Build settings
 markdown: kramdown
+gems:
+  - jekyll-redirect-from

@@ -21,9 +21,9 @@ layout: default
         <div style="display:inline-block">
           {% for tag in page.tags %}
             <div class="chip">
-              <span class="grey-text text-darken-1" rel="tag" style="margin-right:0px;">
+              <a href="{{baseurl}}/search.html?q={{tag}}&amp;type=tag" class="grey-text text-darken-1" rel="tag" style="margin-right:0px;">
                 {{tag}}
-              </span>
+              </a>
             </div>
           {% endfor %}
         </div>
