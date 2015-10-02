@@ -1,11 +1,11 @@
 {% if page.thumbnail %}{% assign selfHostThumbnail = page.thumbnail | split:"://" | size %}{% endif %}
-<meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}" />
+<meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 340 }}{% else %}{{ site.description }}{% endif %}" />
 <link rel='author' href='https://plus.google.com/113820425408268226106' />
 <link rel='publisher' href='https://plus.google.com/113820425408268226106' />
 <link rel="canonical" href="{{ page.url | replace:'/index.html','/' | prepend: site.baseurl | prepend: site.url }}" />
 <meta property="og:locale" content="th_TH" />
 <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
-<meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}" />
+<meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 340 }}{% else %}{{ site.description }}{% endif %}" />
 <meta property="og:url" content="{{ page.url | replace:'/index.html','/' | prepend: site.baseurl | prepend: site.url }}" />
 <meta property="og:site_name" content="pureapp.in.th" />
 {% if page.excerpt != null %}
@@ -24,7 +24,7 @@
 <meta property='fb:app_id' content='351070565012663'/>
 <meta property="og:image" content="{% if page.thumbnail %}{% if selfHostThumbnail == 1 %}{{ page.thumbnail | prepend: site.baseurl | prepend: site.url}}{% else %}{{page.thumbnail}}{% endif %}{% else %}{{" /assets/images/pureapp-logo-200.png " | prepend: site.baseurl | prepend: site.url }}{% endif %}" />
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}"/>
+<meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 340 }}{% else %}{{ site.description }}{% endif %}"/>
 <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}"/>
 <meta name="twitter:site" content="@PakkaponPH"/>
 <meta name="twitter:domain" content="pureapp.in.th"/>
