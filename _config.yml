@@ -5,6 +5,7 @@ description: เว็บนี้คือบล็อกส่วนตัว�
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://www.pureapp.in.th" # the base hostname & protocol for your site
 permalink: /:year/:month/:title.html
+include:      [".htaccess"]
 # paginate settings
 paginate: 5
 paginate_path: "/page/:num"
