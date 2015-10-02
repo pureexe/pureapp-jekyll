@@ -132,11 +132,13 @@ li.archivedate{
 	margin-right:0.4rem;
 }
 .widget-postlist{
+  line-height: 1.8rem;
   margin: 0px;
   li.month{
     margin-left:1em;
   }
   li.post{
+    line-height: 1.5rem;
     margin-left:2em;
     list-style-type: circle;
   }
