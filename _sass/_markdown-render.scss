@@ -31,7 +31,14 @@
       list-style-type: decimal;
     }
   }
+  .card-content{
+    margin-top: 0px;
+  }
+  p{
+    margin-bottom: 0.5rem !important;
+    margin-top: 0.5rem !important;
+  }
   p::first-letter{
-    margin-left:40px;
+    margin-left:2rem;
   }
 }
