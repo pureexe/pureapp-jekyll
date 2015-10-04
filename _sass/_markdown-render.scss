@@ -41,4 +41,12 @@
   p::first-letter{
     margin-left:2rem;
   }
+  .small-image{
+    max-width: 400px;
+  }
+  .middle-image{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
 }

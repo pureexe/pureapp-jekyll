@@ -5,6 +5,7 @@ date: '2015-09-24T09:09:00.000+07:00'
 author: Pakkapon Phongthawee
 tags:
 - "ชีวิตประจำวัน"
+thumbnail: /assets/images/thumbnail/midterm-crisis-2015.png
 modified_time: '2015-09-24T22:10:17.332+07:00'
 blogger_id: tag:blogger.com,1999:blog-3103072889085475591.post-148956355929961315
 blogger_orig_url: http://www.pureapp.in.th/2015/09/midterm-crisis-2015.html
