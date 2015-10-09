@@ -21,6 +21,6 @@ Webflow คือบริการสร้างเว็บแบบลาก
 
 ลองดูคอนเซปของ Webflow CMS ก่อนครับว่ามันเหมาะกับการใช้งานของคุณหรือไม่ มันใช้งานง่ายเหมาะกับผู้ใช้ที่ไม่มีความรู้เรื่องเขียนโปรแกรมแต่ต้องการสร้างเว็บให้สวยงามครับ
 
-<p class="center">
+<p class="center" style="max-width:100%;">
 <iframe src="https://player.vimeo.com/video/135534096?color=6DD7E9&title=0&byline=0&portrait=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe><br/><a href="https://vimeo.com/135534096">Webflow CMS Concept Video</a> from <a href="https://vimeo.com/webflowapp">Webflow</a> on <a href="https://vimeo.com">Vimeo</a>.
 </p>
