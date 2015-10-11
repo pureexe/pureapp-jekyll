@@ -43,9 +43,18 @@ layout: default
         </span>
     </div>
   </div>
-  <div class="card">
+  <div class="card" style="line-height:0px;">
     <div class="card-comment">
         <div class="fb-comments" data-href="{{ page.url | prepend: site.baseurl | prepend: site.url }}" data-width="100%" data-numposts="5"></div>
     </div>
+  </div>
+  <div class="pagination" style="width:100%;text-align: center;">
+    {% if page.next %}
+      <a style="float:left" href="{{ page.next.url }}" class="previous"><i class="mdi-image-navigate-before" style="font-size:48px;"></i></a>
+    {% endif %}
+      <a href="/"><i class="mdi-action-home" style="font-size:48px;"></i></a>
+    {% if page.previous %}
+      <a style="float:right" href="{{ page.previous.url }}" class="next"><i class="mdi-image-navigate-next" style="font-size:48px;"></i></a>
+    {% endif %}
   </div>
 </div>
