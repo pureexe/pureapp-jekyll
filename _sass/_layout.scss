@@ -38,6 +38,7 @@ body {
     right: 0px;
     top: 0px;
     @include media-query($on-tablet) {
+      margin-top: 15px;
       position: static;
     }
   }
