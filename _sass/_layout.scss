@@ -11,19 +11,41 @@ body {
   background-color: #fafafa;
   padding:0px;
 }
+#header-panel{
+  position: relative;
+  @include media-query($on-tablet) {
+    text-align: center;
+  }
+  #site-title{
+    line-height: 1.4;
+    color:white;
+    font-size:24px;
+    padding-left: 15px;
+    @include media-query($on-tablet) {
+      padding-left: 0px;
+    }
+  }
+  #site-description{
+    line-height: 1.4;
+    color:white;
+    padding-left: 15px;
+    @include media-query($on-tablet) {
+      padding-left: 0px;
+    }
+  }
+  #site-hamburger{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    @include media-query($on-tablet) {
+      position: static;
+    }
+  }
+}
 
-#site-title{
-line-height: 1.4;
-color:white;
-font-size:24px;
-}
-#site-description{
-line-height: 1.4;
-color:white;
-}
 #page-header{
-padding-top:15px;
-padding-bottom:15px;
+  padding-top:15px;
+  padding-bottom:15px;
 }
 
 .card-titlepanel{

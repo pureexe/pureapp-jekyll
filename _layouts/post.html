@@ -9,7 +9,7 @@ layout: default
       {% if page.thumbnail %}{% assign selfHostThumbnail = page.thumbnail | split:"://" | size %}{% endif %}
       <meta itemprop="image" content="{% if selfHostThumbnail == 1 and jekyll.environment == 'production' %}{{ page.thumbnail | prepend: site.baseurl | prepend: site.url}}{% else %}{{page.thumbnail}}{% endif %}"/>
       {% else %}
-      <meta content='{{" /assets/images/pureapp-logo-200.png " | prepend: site.baseurl | prepend: site.url }}' itemprop="image"/>
+      <meta content='{{"/assets/images/pureapp-logo-200.png" | prepend: site.baseurl | prepend: site.url }}' itemprop="image"/>
       {% endif %}
     </div>
     <div class="card-content">
