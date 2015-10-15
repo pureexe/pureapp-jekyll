@@ -19,7 +19,7 @@ blogger_orig_url: http://www.pureapp.in.th/2015/07/jekyll-prepare.html
 ##เครื่องมือที่ใช้งาน
 
 1. Editor ในที่นี้ผมแนะนำ atom [(https://atom.io)](ttps://atom.io) และนี้คือหน้าตาของ atom.io ที่ผมใช้   
-![](http://4.bp.blogspot.com/-a3CGptn8WCA/VbmrCUclQ_I/AAAAAAAAZ-Q/pgDZFy5ZjRU/s1600/atomio.png){: .small-image .middle-image}  
+![](https://4.bp.blogspot.com/-a3CGptn8WCA/VbmrCUclQ_I/AAAAAAAAZ-Q/pgDZFy5ZjRU/s1600/atomio.png){: .small-image .middle-image}  
 2. เบราว์เซอร์ดีๆซักตัว ซึ่งถูกใจผมสุดตอนนี้คงหนีไม่พ้น Google Chrome  
 ![](https://3.bp.blogspot.com/-HRCcdy-iPKA/Vbmr2xJ-ClI/AAAAAAAAZ-c/-kFpLaYwS2g/s200/unnamed.png){: .small-image .middle-image}   
 3. Ruby เนื่องจาก Jekyll นั้นถูกพัฒนาขึ้นมาด้วย Ruby เราจึงต้องใช้ Ruby ในการรันมัน ซึ่งเราสามารถดาวน์โหลด Ruby ได้ทาง [http://rubyinstaller.org/downloads/](http://rubyinstaller.org/downloads/) โดยเลือกให้ตรงกับ bit ของ windows ที่ท่านใช้งาน

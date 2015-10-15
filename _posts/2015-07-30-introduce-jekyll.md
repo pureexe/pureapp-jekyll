@@ -17,7 +17,7 @@ blogger_orig_url: http://www.pureapp.in.th/2015/07/introduce-jekyll.html
 
 แต่ทว่า Jekyll (เจเกิล) นั้นไม่ได้สามารถลากและวางธรรมดาๆได้เหมือน CMS ทั่วไป หน้าตาของมันนั้นเป็น command line ที่เห็นแล้วดูใช้งานยากสุดๆ
 
-![](http://3.bp.blogspot.com/-qk0tMEqwlKY/Vbj-4TgxyKI/AAAAAAAAZ90/ssYoi_aMJb8/s1600/jekyll-userinterface.png){: .small-image .middle-image}
+![](https://3.bp.blogspot.com/-qk0tMEqwlKY/Vbj-4TgxyKI/AAAAAAAAZ90/ssYoi_aMJb8/s1600/jekyll-userinterface.png){: .small-image .middle-image}
 
 นี่ก็เพียงพอที่จะบอกได้ว่า Jekyll ไม่ได้ถูกออกแบบมาให้ใช้กับมือใหม่ แต่มันสร้างขึ้นเพื่อให้มือเก๋าเป็นคนใช้งาน ซึ่งสิ่งที่เราควรรู้ก่อนใช้ Jekyll ก็คือพื้นฐานในการเขียนเว็บ front-end ทั่วไป เช่น html markdown css sass เป็นต้น
 
