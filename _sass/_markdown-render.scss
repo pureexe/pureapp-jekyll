@@ -5,20 +5,21 @@
   h1, h2, h3, h4 {
     margin-top: 2rem;
     margin-bottom: 1rem;
+    font-weight: bold;
   }
   h2{
-  	font-weight:bold;
-    border-bottom: 1px solid #eee;
+  	border-bottom: 1px solid #eee;
     padding-bottom: 0.7rem;
     font-size: 1.5rem;
   }
    h3{
   	font-size:1.4rem;
-    font-weight: bold;
   }
   h4{
   	font-size:1.0rem;
-    font-weight: bold;
+  }
+  strong {
+      font-weight: bold;
   }
   ul{
     padding-left: 40px;
@@ -42,11 +43,13 @@
     margin-left:2rem;
   }
   .small-image{
-    width: 400px;
+    max-width: 400px;
   }
   .middle-image{
     margin-left: auto;
     margin-right: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
     display: block;
   }
 }
