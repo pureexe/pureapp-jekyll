@@ -28,4 +28,4 @@ blogger_orig_url: http://www.pureapp.in.th/2014/09/how-many-i-chat.html
 Github คือ social network ครับ วิธีการเล่นคล้ายๆ Twitter คือกด follow แล้วเวลาใครโพสโค้ดอะไรลงไป ถ้าเรา follow ไว้จะเห็นโค้ดของเขาครับ ซึ่งเจ้า Github มีบริการหนึ่งชื่อว่า Github Pages
 ซึ่ง Github pages เนี่ย จะอนุญาติให้เราฝากเว็บไว้ได้แต่เงื่อนไขว่าต้องเป็น static page เท่านั้น ซึ่งในตอนแรก แอปผมพัฒนาด้วย ภาษา php ซึ่งเป็น dynamic page สามารถฝากไว้ได้แต่ไม่สามารถทำงานได้ ทำให้ผมต้องใช้เวลาร่วมอาทิตย์ในการแปลจากภาษา php เป็น ภาษา javascript ซึ่งเป็น static page
 
-และแล้วตอนนี้แอปก็ได้แปลเสร็จแล้ว เชิญไปเล่นกันได้ครับที่ [www.pureapp.in.th/topchat](www.pureapp.in.th/topchat)
+และแล้วตอนนี้แอปก็ได้แปลเสร็จแล้ว เชิญไปเล่นกันได้ครับที่ [www.pureapp.in.th/topchat](https://www.pureapp.in.th/topchat)
