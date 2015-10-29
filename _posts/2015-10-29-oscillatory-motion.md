@@ -1,11 +1,11 @@
 ---
 layout: post
 title: "การเคลื่อนที่แบบออสซิลเลต"
-date: '2015-10-26T14:40:00.000+07:00'
+date: '2015-10-29T08:20:00.000+07:00'
 author: Pakkapon Phongthawee
 tags:
 - "วิทยาศาสตร์"
-modified_time: '2015-10-26T16:15:00.000+07:00'
+modified_time: '2015-10-29T08:23:00.000+07:00'
 thumbnail: /assets/images/thumbnail/oscillatory-motion.png
 mathjax: true
 ---
