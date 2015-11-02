@@ -7,7 +7,9 @@ layout: default
           {% if post.thumbnail %}
           {% if post.thumbnail %}{% assign selfHostThumbnail = post.thumbnail | split:"://" | size %}{% endif %}
           <div class="card-image">
-            <img src="{{ post.thumbnail }}" />
+            <a href="{{ post.url }}">
+              <img src="{{ post.thumbnail }}" />
+            </a>
             <meta itemprop="image" content="{% if selfHostThumbnail == 1 %}{{ post.thumbnail | prepend: site.baseurl | prepend: site.url}}{% else %}{{post.thumbnail}}{% endif %}"/>
           </div>
           {% else %}
