@@ -1,4 +1,7 @@
 .markdown-render{
+  font-size: 1.1rem;
+  line-height: 1.85rem;
+  color: rgb(68, 68, 68);
   img{
     max-width: 100%;
   }
@@ -16,7 +19,7 @@
   	font-size:1.4rem;
   }
   h4{
-  	font-size:1.0rem;
+  	font-size:1.2rem;
   }
   strong {
       font-weight: bold;
@@ -36,8 +39,8 @@
     margin-top: 0px;
   }
   p{
-    margin-bottom: 0.5rem !important;
-    margin-top: 0.5rem !important;
+    margin-bottom: 1rem !important;
+    margin-top: 1rem !important;
   }
   p::first-letter{
     margin-left:2rem;

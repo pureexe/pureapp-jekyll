@@ -77,7 +77,7 @@ $(function() {
           }
           var cardTitle = "<a href='"+post.url+"'><h5 class='site-post-card-title' itemprop='headline'>"+post.title+"</h5></a>";
           var cardAction = "<div class='card-action'><span><i class='mdi-device-access-time'></i> <span class='date-display' style='margin-right:0.5em;'><span class='date'>"+getDateText(post.date)+"</span></span></span>"+cardTag+"</div>";
-          $("#result").append("<div class='card'>"+cardImage+"<div class='card-content'>"+cardTitle+"<div>"+post.excerpt+"</div></div>"+cardAction+"</div>");
+          $("#result").append("<div class='card'>"+cardImage+"<div class='card-content'>"+cardTitle+"<div class='site-post-card-description'>"+post.excerpt+"</div></div>"+cardAction+"</div>");
         }
       });
   });

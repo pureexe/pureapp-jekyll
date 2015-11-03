@@ -17,7 +17,7 @@ layout: default
           {% endif %}
           <div class="card-content">
             <h5 class="site-post-card-title" itemprop="headline"><a href="{{ post.url }}">{{ post.title }}</a></h5>
-            <div class="content" >
+            <div class="site-post-card-description" >
               <span itemprop="description">{{ post.excerpt | strip_html | strip_newlines | truncate: 340, "" }}</span>
               <a href="{{ post.url }}"> อ่านต่อ... </a>
             </div>
