@@ -10,7 +10,6 @@ social:
   fb: 100000131794195
   fbapps: 351070565012663
   twitter: "@PakkaponPH"
-include:      [".htaccess"]
 # paginate settings
 paginate: 5
 paginate_path: "/page/:num"
@@ -18,3 +17,4 @@ paginate_path: "/page/:num"
 markdown: kramdown
 gems:
   - jekyll-redirect-from
+  - jekyll-sitemap
