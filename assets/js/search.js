@@ -71,7 +71,7 @@ $(function() {
             cardTag+="<div class='chip'><a href='/search?q="+tag+"&amp;type=tag' class='grey-text text-darken-1' rel='tag' style='margin-right:0px;'>"+tag+"</a></div> ";
           });
           cardTag = "<div style='display:inline-block'>"+cardTag+"</div>";
-          var cardImage = "<div class='card-image'><img src="+post.thumbnail+" /></div>"
+          var cardImage = "<div class='card-image'><a href="+post.url+"><img src="+post.thumbnail+" /></a></div>"
           if(!post.thumbnail){
             cardImage = "";
           }
