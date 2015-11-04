@@ -1,7 +1,10 @@
-<script async data-main="/assets/js/require-setup.js" src="/assets/js/require.js"></script>
-<!--<script src="/assets/js/jquery-2.1.4.min.js"></script>
+{% if page.requirejs == false %}
+<script src="/assets/js/jquery-2.1.4.min.js"></script>
 <script src="/assets/js/materialize.min.js"></script>
-<script async src="/assets/js/theme.js"></script>-->
+<script src="/assets/js/theme.js"></script>
+{% else %}
+<script async data-main="/assets/js/require-setup.js" src="/assets/js/require.js"></script>
+{% endif %}
 <script async src="/assets/js/fb-loader.js"></script>
 <script src="https://apis.google.com/js/platform.js" async defer></script>
 {% if page.mathjax %}<script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" async defer></script> {%endif%}
