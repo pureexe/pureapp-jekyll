@@ -27,7 +27,11 @@ $(function() {
     }else{
       month = "ธันวาคม";
     }
-    return date.getDate()+" "+month+" "+(date.getFullYear()+543);
+    var date = ""+date.getDate();
+    if(date.length == 1){
+      date = "0"+date;
+    }
+    return date+" "+month+" "+(date.getFullYear()+543);
   }
   $.QueryString = (function(a) {
         if (a == "") return {};
