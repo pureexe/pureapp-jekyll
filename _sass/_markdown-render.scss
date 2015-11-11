@@ -58,4 +58,9 @@
     margin-bottom: 1rem;
     display: block;
   }
+  p>code{
+    color: #e64946;
+    font-family: Monaco,MonacoRegular,"Courier New",monospace!important;
+    font-size: .9em;
+  }
 }
