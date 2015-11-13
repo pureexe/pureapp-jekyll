@@ -1,12 +1,12 @@
 <footer class="page-footer light-blue darken-1">
   <div class="container">
     <div class="row" style="margin-left: 0px;margin-right: 0px;">
-      <div class="col l6 s12">
+      <div class="col l5 s12">
         <h5 class="white-text">เว็บนี้คืออะไร?</h5>
-        <p class="grey-text text-lighten-4">เว็บนี้คือบล็อกส่วนตัวของเพียว (ภัคพล พงษ์ทวี) เขียนขึ้นเพื่อเผยแพร่ ความรู้และโปรแกรมที่สร้างขึ้น ผมหวังว่าทุกท่านที่เข้ามาจะได้รับประโยชน์ไม่มากก็น้อย</p>
+        <p class="grey-text text-lighten-4" style="font-size:1.1rem;line-height:1.8rem;">เว็บนี้คือบล็อกส่วนตัวของเพียว (ภัคพล พงษ์ทวี) เขียนขึ้นเพื่อเผยแพร่ ความรู้และโปรแกรมที่สร้างขึ้น ผมหวังว่าทุกท่านที่เข้ามาจะได้รับประโยชน์ไม่มากก็น้อย</p>
       </div>
-      <div class="col l4 offset-l2 s12">
-        <h5 class="white-text">แอปอื่นๆที่สร้างโดยผม</h5>
+      <div class="col l3 s12">
+        <h5 class="white-text">แอปที่สร้างโดยผม</h5>
         <ul>
           <li>
             <a class="grey-text text-lighten-3" href="https://irin.in.th">ไอริน</a>
@@ -18,6 +18,16 @@
             <a class="grey-text text-lighten-3" href="https://github.com/pureexe/th-news">TH-news</a>
           </li>
         </ul>
+      </div>
+      <div class="col l4 s12">
+        <h5 class="white-text">ป้ายกำกับ</h5>
+        <div class="row" style="line-height: 1.8rem;">
+        {% for tag in site.tags %}
+          <div class="col s4">
+            <a class="grey-text text-lighten-3" href="{{baseurl}}/search?q={{tag | first}}&amp;type=tag" style="text-transform: capitalize;">{{tag | first}}</a>
+          </div>
+        {% endfor %}
+        </div>
       </div>
     </div>
   </div>

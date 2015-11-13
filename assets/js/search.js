@@ -27,11 +27,11 @@ $(function() {
     }else{
       month = "ธันวาคม";
     }
-    var date = ""+date.getDate();
-    if(date.length == 1){
-      date = "0"+date;
+    var date2 = ""+date.getDate();
+    if(date2.length == 1){
+      date2 = "0"+date2;
     }
-    return date+" "+month+" "+(date.getFullYear()+543);
+    return date2+" "+month+" "+(date.getFullYear()+543);
   }
   $.QueryString = (function(a) {
         if (a == "") return {};
