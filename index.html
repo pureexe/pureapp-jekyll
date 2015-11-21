@@ -1,11 +1,10 @@
 ---
 layout: default
 ---
-      <!-- This loops through the paginated posts -->
       {% for post in paginator.posts %}
         <div class="card" itemscope itemtype='http://schema.org/BlogPosting'>
           {% if post.thumbnail %}
-          {% if post.thumbnail %}{% assign selfHostThumbnail = post.thumbnail | split:"://" | size %}{% endif %}
+          {% assign selfHostThumbnail = post.thumbnail | split:"://" | size %}
           <div class="card-image">
             <a href="{{ post.url }}">
               <img src="{{ post.thumbnail }}" />
