@@ -1,11 +1,11 @@
 ---
 layout: post
 title: สมดุลสถิตและสมบัติความยืดหยุ่น
-date: 2015-11-25T20:47:00.000+07:00
+date: 2015-11-22T16:21:00.000+07:00
 author: Pakkapon Phongthawee
 tags:
 - วิทยาศาสตร์
-modified_time: 2015-11-25T20:47:20.000+07:00
+modified_time: 2015-11-22T23:43:55.259+07:00
 mathjax: true
 thumbnail: /assets/images/thumbnail/static-equilibrium-and-elasticity.png
 ---
