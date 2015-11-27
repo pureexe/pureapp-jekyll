@@ -63,4 +63,10 @@
     font-family: Monaco,MonacoRegular,"Courier New",monospace!important;
     font-size: .9em;
   }
+  .margin-bottom{
+    margin-bottom: 1rem;
+  }
+  li > p::first-letter{
+    margin-left:0rem;
+  }
 }
