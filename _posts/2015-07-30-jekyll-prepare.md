@@ -5,7 +5,7 @@ date: '2015-07-30T11:56:00.004+07:00'
 author: Pakkapon Phongthawee
 tags:
 - "สอน"
-- web
+- คอมพิวเตอร์
 modified_time: '2015-09-27T19:27:27.713+07:00'
 thumbnail: https://3.bp.blogspot.com/-nykfLzxhjPk/VbmqVOLjFbI/AAAAAAAAZ-I/eSMfF91Xps0/s1600/jekyll2.png
 blogger_id: tag:blogger.com,1999:blog-3103072889085475591.post-2942988230475434627

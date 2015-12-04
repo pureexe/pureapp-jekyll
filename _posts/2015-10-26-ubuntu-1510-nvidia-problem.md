@@ -5,7 +5,7 @@ date: '2015-10-26T00:40:00.000+07:00'
 author: Pakkapon Phongthawee
 tags:
 - "ชีวิตประจำวัน"
-- "linux"
+- "คอมพิวเตอร์"
 modified_time: '2015-10-26T01:15:00.000+07:00'
 thumbnail: /assets/images/thumbnail/ubuntu-1510-nvidia-problem.png
 ---

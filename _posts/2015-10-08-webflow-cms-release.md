@@ -5,7 +5,7 @@ date: '2015-10-08T00:10:00.000+07:00'
 author: Pakkapon Phongthawee
 tags:
 - "review"
-- "web"
+- "คอมพิวเตอร์"
 modified_time: '2015-10-08T00:39:00.000+07:00'
 thumbnail: /assets/images/thumbnail/webflow-cms-release.png
 ---
