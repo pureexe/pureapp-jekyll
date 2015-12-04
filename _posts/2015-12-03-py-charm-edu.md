@@ -4,7 +4,7 @@ title: PyCharm Edu โปรแกรมสอนภาษาไพทอน
 date: 2015-12-03T17:00:00.000+07:00
 author: Pakkapon Phongthawee
 tags:
-- Review
+- review
 modified_time: 2015-12-03T23:17:15.000+07:00
 thumbnail: /assets/images/thumbnail/py-charm-edu.png
 ---
