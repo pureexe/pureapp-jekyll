@@ -47,7 +47,7 @@ thumbnail: /assets/images/thumbnail/install-boost-on-codeblocks.png
 
 ![](/assets/images/post/install-boost-on-codeblocks/009-add-linker.png){: .middle-image .medium-image}
 
-ต่อมาจึงทำการเพิ่ม Linker สำหรับใช้คอมไพล์โค้ดให้เป็นไบนารี่ โดยเลือกที่แทบ Linker Settings จากนั้นเลือก Lineker ที่เราจะใช้งาน เช่นหากเราจะใช้ `boost:filesystem` ก็ให้เลือก Linker ที่ชื่อ filesystem แต่ผมจะทำการเพิ่ม Linker ทุกตัวเข้ามาใช้งาน โดนจะเลือกเฉพาะตัวที่ไม่มี -d ในชื่อ (ตามภาพประกอบ) เนื่องจาก -d หมายถึง debugging
+ต่อมาจึงทำการเพิ่ม Linker สำหรับใช้คอมไพล์โค้ดให้เป็นไบนารี่ โดยเลือกที่แทบ Linker Settings จากนั้นเลือก Lineker ที่เราจะใช้งาน เช่นหากเราจะใช้ `boost:filesystem` ก็ให้เลือก Linker ที่ชื่อ filesystem แต่ผมจะทำการเพิ่ม Linker ทุกตัวเข้ามาใช้งาน โดยจะเลือกเฉพาะตัวที่ไม่มี -d ในชื่อ (ตามภาพประกอบ) เนื่องจาก -d หมายถึง debugging
 
 ## ทดสอบหลังติดตั้ง
 
