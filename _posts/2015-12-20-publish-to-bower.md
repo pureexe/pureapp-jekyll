@@ -1,11 +1,11 @@
 ---
 layout: post
 title: ส่งงานขึ้นสู่ bower
-date: '2015-12-19T15:50:00.000+07:00'
+date: '2015-12-20T09:28:00.000+07:00'
 author: Pakkapon Phongthawee
 tags:
 - คอมพิวเตอร์
-modified_time: '2015-12-19T15:50:00.000+07:00'
+modified_time: '2015-12-20T09:28:00.000+07:00'
 thumbnail: /assets/images/thumbnail/publish-to-bower.png
 ---
 **Bower** คือระบบจัดการ web framework ที่เป็นแหล่งรวม library ต่างๆเกี่ยวกับเว็บให้เราสามารถดาวน์โหลดลงได้ผ่านคำสั่งง่ายๆ ซึ่งถ้าวันนึงเราสร้าง library ขึ้นมาบ้าง เราจะส่งขึ้น bower ได้อย่างไร วันนี้ผมจะมาแสดงให้ดูครับ
