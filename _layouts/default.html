@@ -1,79 +1,20 @@
 <!DOCTYPE html>
 <html>
-
   {% include head.html %}
-
   <body>
-
     {% include header.html %}
-
     <div class="page-content">
       <div class="container">
         <div class="row" style="padding-top:10px;margin:0px;">
           <div id="site-content" class="col l9 m12 s12">
-        {{ content }}
+            {{ content }}
           </div>
           <div class="col l3 m12 s12">
-            <div class="center">
-              <div class="card" style="display: inline-block;max-width:100%;width:273px;margin-bottom: 0.5rem;overflow:hidden;">
-                <div class="fb-page" data-href="https://www.facebook.com/appmadebypure" data-width="273" data-height="130" data-hide-cover="false" data-show-facepile="false" data-show-posts="false"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/appmadebypure"><a href="https://www.facebook.com/appmadebypure">Pure&#039;s app</a></blockquote></div></div>
-              </div>
-            </div>
-            <div class="card">
-              <div style="padding:1px 20px 1px 20px;">
-                <ul style="line-height:1.8em">
-                  <li ><a href="http://www.pureapp.in.th/p/whiteface.html">หน้าคุณขาวแค่ไหน</a></li>
-                  <li><a href="http://www.pureapp.in.th/p/topcomment.html">ใครคอมเม้นคุณมากที่สุด</a></li>
-                  <li><a href="http://www.pureapp.in.th/p/toplike.html">ใครไลค์ฉันมากที่สุด</a></li>
-                  <li><a href="http://www.pureapp.in.th/p/status-post.html">ฉันอัพสเตตัสไปกี่ครั้งแล้ว</a></li>
-                  <li><a href="http://www.facebook.com/appmadebypure">แจ้งปัญหา</a></li>
-                </ul>
-              </div>
-            </div>
-            {% if jekyll.environment == "production" %}{% include widget-postlist.html %}{% endif %}
-            <div class="center">
-              <div class="card" style="line-height:0px;max-width:100%;display:inline-block;overflow:hidden">
-                <div class="g-person" data-href="https://plus.google.com/113820425408268226106" data-rel="author" data-layout="landscape" data-width="273"></div>
-              </div>
-            </div>
-            {%comment%}
-            <div class="card">
-              <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-              <!-- responsive -->
-              <ins class="adsbygoogle"
-                   style="display:block"
-                   data-ad-client="ca-pub-4703327023355020"
-                   data-ad-slot="9496473399"
-                   data-ad-format="auto"></ins>
-              <script>
-              (adsbygoogle = window.adsbygoogle || []).push({});
-              </script>
-            </div>
-            <div class="card" style="overflow:hidden">
-             <script type="text/javascript">
-              <!--
-              ad_partner="20140903861469463";
-              ad_website="20140903985216367";
-              ad_zone="20140912907528748";
-              ad_format="200804224875250250";
-              ad_type="tm";
-              ad_color_border="548E9B";
-              ad_color_bg="FFFFFF";
-              ad_background="";
-              ad_color_title="0000CC";
-              ad_color_text="000000";
-              ad_color_url="22608F";
-              //-->
-              </script>
-              <script type="text/javascript" src="//ads.bumq.com/ad_show2.js"></script>
-            </div>
-            {%endcomment%}
+            {% include sidebar.html%}
           </div>
         </div>
       </div>
     </div>
-
     {% include footer.html %}
   </body>
-
 </html>
