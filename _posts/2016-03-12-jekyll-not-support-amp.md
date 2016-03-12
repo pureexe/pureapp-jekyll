@@ -1,11 +1,11 @@
 ---
 layout: post
 title: Jekyll มันไม่รองรับ AMP
-date: '2016-03-12T10:10:00.000+07:00'
+date: '2016-03-12T22:36:00.000+07:00'
 author: Pakkapon Phongthawee
 tags:
 - คอมพิวเตอร์
-modified_time: '2016-03-12T10:10:00.000+07:00'
+modified_time: '2016-03-12T22:36:00.000+07:00'
 thumbnail: /assets/images/thumbnail/jekyll-not-support-amp.png
 ---
 ตอนนี้ Google กำลังผลักดันให้เราไปใช้ AMP หรือ Accelerated Mobile Page เพื่อให้หน้าเว็บเมื่อเปิดบนมือถือสามารถโหลดได้เร็วขึ้น ผมเลยจำเป็นต้องพยายามปรับเว็บตามด้วย แต่ว่าปัญหามันก็เกิดตามมาอย่างรวดเร็ว
