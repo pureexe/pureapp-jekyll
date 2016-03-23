@@ -3,16 +3,23 @@ layout: default
 ---
       {% for post in paginator.posts %}
         <div class="card" itemscope itemtype='http://schema.org/BlogPosting'>
+          <meta itemscope itemprop="mainEntityOfPage"  itemType="https://schema.org/WebPage" itemid="{{ site.baseurl | prepend: site.url }}"/>
           {% if post.thumbnail %}
           {% assign selfHostThumbnail = post.thumbnail | split:"://" | size %}
           <div class="card-image">
-            <a href="{{ post.url }}">
+            <a href="{{ post.url }}" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
               <img src="{{ post.thumbnail }}" />
+              <meta itemprop="url" content="{% if selfHostThumbnail == 1 %}{{ post.thumbnail | prepend: site.baseurl | prepend: site.url}}{% else %}{{post.thumbnail}}{% endif %}" />
+              <meta itemprop="width" content="640" />
+              <meta itemprop="height" content="312" />
             </a>
-            <meta itemprop="image" content="{% if selfHostThumbnail == 1 %}{{ post.thumbnail | prepend: site.baseurl | prepend: site.url}}{% else %}{{post.thumbnail}}{% endif %}"/>
           </div>
           {% else %}
-          <meta content='{{" /assets/images/pureapp-logo-200.png " | prepend: site.baseurl | prepend: site.url }}' itemprop="image"/>
+          <div itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+            <meta itemprop="url" content='{{" /assets/images/pureapp-logo-200.png " | prepend: site.baseurl | prepend: site.url }}'/>
+            <meta itemprop="width" content="200" />
+            <meta itemprop="height" content="200"/>
+          </div>
           {% endif %}
           <div class="card-content">
             <h5 class="site-post-card-title" itemprop="headline"><a href="{{ post.url }}">{{ post.title }}</a></h5>
@@ -22,9 +29,29 @@ layout: default
             </div>
           </div>
           <div class="card-action">
+            <div itemprop="author" itemscope itemtype="https://schema.org/Person">
+              {% if post.author %}
+              <meta itemprop="name" content="{{post.author}}">
+              {% else %}
+              <meta itemprop="name" content="{{site.author}}">
+              {% endif %}
+            </div>
+            <div itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
+              {% if post.publisher %}
+              <meta itemprop="name" content="{{post.publisher}}">
+              {% else %}
+              <div itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
+                <meta itemprop="url" content='{{"/assets/images/pureapp-logo-200.png " | prepend: site.baseurl | prepend: site.url }}'/>
+                <meta itemprop="width" content="200">
+                <meta itemprop="height" content="200">
+              </div>
+              <meta itemprop="name" content="{{site.publisher}}">
+              {% endif %}
+            </div>
             <span>
               <i class="mdi-device-access-time"></i>
               <meta content="{{ post.date }}" itemprop="datePublished">
+              <meta content="{{ post.modified_time }}" itemprop="dateModified">
               <span class="date-display" style="margin-right:0.5em;">
                 <span class="date">{{ post.date | date: "%d %B" | replace:'January','มกราคม' | replace:'February','กุมภาพันธ์' | replace:'March','มีนาคม' | replace:'April','เมษายน' | replace:'May','พฤษภาคม' | replace:'June','มิถุนายน' | replace:'July','กรกฏาคม' | replace:'August','สิงหาคม' | replace:'September','กันยายน' | replace:'October','ตุลาคม' | replace:'November','พฤศจิกายน' | replace:'December','ธันวาคม' }} {{ post.date | date: "%Y" | plus:"543"}}</span>
               </span>

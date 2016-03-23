@@ -5,6 +5,8 @@ description: เว็บนี้คือบล็อกส่วนตัว�
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://www.pureapp.in.th" # the base hostname & protocol for your site
 permalink: /:year/:month/:title.html
+author: ภัคพล พงษ์ทวี
+publisher: Pure's app
 social:
   gplus: 113820425408268226106
   fb: 100000131794195
