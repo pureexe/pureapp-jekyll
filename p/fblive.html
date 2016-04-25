@@ -5,10 +5,32 @@ redirect_from:
   - "/fblive/"
 requirejs: false
 ---
-<p>การถ่ายทอดสดผ่านเฟสบุ๊คจะเป็นวิธีการถ่ายทอดผ่านโปรแกรม <a href="https://obsproject.com/">OBS</a> โดยท่านสามารถอ่านวิธีการใช้งานโดยรวมได้ <a href="/2015/04/fblive-with-pureapp.html">ที่นี่</a></p>
-<a id="liveButton" class="btn waves-effect waves-light">ถ่ายทอดสดผ่านเฟสบุ๊ค</a>
+<article style="display:none">
+<img src="/assets/images/thumbnail/fblive.png"/>
+<p>ถ่ายทอดสดหน้าจอของคุณไปยังหน้าเฟสบุ๊ค หน้ากลุ่ม หรือเพจของคุณ</p>
+</article>
+<p>แอปนี้เป็นแอปที่ช่วยให้ท่านสามารถถ่ายทอดสดหน้าจอคอมพิวเตอร์ของตัวเองขึ้นไปยังโปรไฟล์เฟสบุ๊ค เพจบนเฟสบุ๊คและกลุ่มบนเฟสบุ๊คได้ โดยเพียงแค่ท่านกดปุ่ม<a href="javascript:startLive();">เริ่มถ่ายทอดสด</a>ด้านล่างนี้ โดยท่านสามารถอ่านขั้นตอนการถ่ายทอดสดได้ที่ด้านล่าง</p>
+<center><a id="liveButton" class="btn btn-large waves-effect waves-light">เริ่มถ่ายทอดสด</a></center>
+<br>
+<h2>วิธีการถ่ายทอดสด</h2>
+<p>ท่านสามารถดาวน์โหลดโปรแกรม OBS เพื่อใช้ในการถ่ายทอดสดได้ที่ <a href="https://obsproject.com" target="_blank">obsproject.com</a> โดยจะเห็นด้านซ้ายมือมีปุ่มเขียนว่า Windows 7/8/10 เมื่อคลิกแล้วจะมีไฟล์ดาวน์โหลดลงมา คลิกเปิดและติดตั้งให้เรียบร้อย</p>
+<img src="/assets/images/post/fblive/getobjsclassic.png" class="middle-image z-depth-1" />
+<p>จากนั้นทำการติดตั้งโปรแกรมให้คลิกที่ปุ่ม <a href="javascript:startLive();">เริ่มถ่ายทอดสด</a> ที่ด้านบนของเว็บแล้วจะพบกับกล่องดังภาพเด้งขึ้นมาให้ท่านเลือกว่าจะโพสการถ่ายทอดสดไปยังตัวเอง ไปยังเพื่อน ไปยังเพจ หรือไปยังกลุ่ม</p>
+<img src="/assets/images/post/fblive/fblive-where.png" class="middle-image z-depth-1" />
+<p>หากในขั้นนี้ที่แถบ url จะขึ้นว่ามีป๊อบอัปที่ถูกบล็อคอยู่ ให้กดอนุญาตแสดงป๊อบอัป (always allow)แล้วกดปุ่ม <a href="javascript:startLive();">เริ่มถ่ายทอดสด</a> ใหม่อีกครั้ง</p>
+<img src="/assets/images/post/fblive/allow-popup.png" class="middle-image z-depth-1" />
+<p>ในขั้นนี้จะมีหน้าต่างข้อมูลของการถ่ายทอดสดขึ้นมา ให้กรอกข้อมูลต่างๆเช่น ข้อความ ชื่อวิดีโอ แท็ก อารมณ์ ฯลฯ ให้เรียบร้อย แต่ขั้นนี้ยังไม่สามารถกดปุ่ม Go Live! เนื่องจากวิดีโอยังออฟไลน์อยู่</p>
+<img src="/assets/images/post/fblive/getkey.png" class="middle-image medium-image z-depth-1" />
+<p>ให้เปิดโปรแกรม OBS ขึ้นมาจากนั้นเลือก การตั้งค่า > ตั้งค่าการออกอากาศ เลือก Live Stream แล้วเลือก Custom จากนั้นคัดลอก Server URL จากหน้าเว็บ วางในช่อง FMS URL และคัดลอกช่อง Stream Key มาวางในช่อง Stream Key</p>
+<img src="/assets/images/post/fblive/objs-configure.png" class="middle-image medium-image z-depth-1" />
+<p>จากนั้นที่หน้าแรกของโปรแกรม OBS จะเห็นช่อง source เลือก Monitor capture (หรืออย่างอื่นก็ได้ ถ้าต้องการ) แล้วกดปุ่ม เริ่มสตรีมมิ่ง</p>
+<img src="/assets/images/post/fblive/monitor-capture.png" class="middle-image z-depth-1" />
+<p>รอจนกระทั่งขึ้นภาพตัวอย่างขึ้นมา แล้วกดปุ่ม Go Live! ได้เลย</p>
+<img src="/assets/images/post/fblive/golive.png" class="middle-image medium-image z-depth-1" />
+<p>เอาละ ตอนนี้ท่านก็พร้อมสำหรับการถ่ายทอดสดแล้ว เริ่มถ่ายทอดสดได้โดยการกดปุ่ม <a href="javascript:startLive();">เริ่มถ่ายทอดสด</a>ได้ทันที</p>
+<center><a href="javascript:startLive();" class="btn btn-large waves-effect waves-light">เริ่มถ่ายทอดสด</a></center>
 <script>
-document.getElementById('liveButton').onclick = function() {
+function startLive(){
   FB.ui({
     display: 'popup',
     method: 'live_broadcast',
@@ -17,7 +39,7 @@ document.getElementById('liveButton').onclick = function() {
     if (!response.id) {
       return;
     }
-    alert('stream url:' + response.secure_stream_url);
+    //alert('stream url:' + response.secure_stream_url);
     FB.ui({
       display: 'popup',
       method: 'live_broadcast',
@@ -27,7 +49,8 @@ document.getElementById('liveButton').onclick = function() {
     //alert("video status: \n" + response.status);
     });
   });
-};
+}
+document.getElementById('liveButton').onclick = startLive;
 </script>
 <script>
 /*TODO:
