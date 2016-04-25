@@ -8,7 +8,7 @@
 <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 340 }}{% else %}{{ site.description }}{% endif %}" />
 <meta property="og:url" content="{{ page.url | replace:'/index.html','/' | prepend: site.baseurl | prepend: site.url }}" />
 <meta property="og:site_name" content="pureapp.in.th" />
-{% if page.excerpt != null %}
+{% if page.layout == 'post' %}
 <meta property="og:type" content="article" />
 <meta property="article:publisher" content="https://www.facebook.com/appmadebypure" />
 <meta property="article:author" content="https://www.facebook.com/pureexe" />
