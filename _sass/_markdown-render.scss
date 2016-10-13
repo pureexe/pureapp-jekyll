@@ -1,3 +1,7 @@
+body{
+  -webkit-filter: grayscale(90%);
+  filter: grayscale(90%);
+}
 .markdown-render{
   font-size: 1.1rem;
   line-height: 1.85rem;
