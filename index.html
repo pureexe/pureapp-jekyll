@@ -71,10 +71,10 @@ layout: default
       <!-- Pagination links -->
       <div class="pagination" style="width:100%;text-align: center;">
         {% if paginator.previous_page %}
-          <a style="float:left" href="{{ paginator.previous_page_path }}" class="previous"><i class="mdi-image-navigate-before" style="font-size:48px;"></i></a>
+          <a style="float:left" href="{{ paginator.previous_page_path }}" class="previous grey-text"><i class="mdi-image-navigate-before" style="font-size:48px;"></i></a>
         {% endif %}
-          <a href="/"><i class="mdi-action-home" style="font-size:48px;"></i></a>
+          <a href="/" class="grey-text"><i class="mdi-action-home" style="font-size:48px;"></i></a>
         {% if paginator.next_page %}
-          <a style="float:right" href="{{ paginator.next_page_path }}" class="next"><i class="mdi-image-navigate-next" style="font-size:48px;"></i></a>
+          <a style="float:right" href="{{ paginator.next_page_path }}" class="next grey-text"><i class="mdi-image-navigate-next" style="font-size:48px;"></i></a>
         {% endif %}
       </div>
