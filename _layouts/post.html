@@ -25,7 +25,7 @@ layout: default
         {% assign rawExtension = page.path | split:"." | last %}
         {% if rawExtension == "md" %}
         <div class="center" style="margin-bottom: 20px;">
-          <img src="{{page.thumbnail}}" style="max-width:640px;" />
+          <img src="{{page.thumbnail}}" style="max-width:100%;width:640px;" />
         </div>
         {% endif %}
         {{ content }}
