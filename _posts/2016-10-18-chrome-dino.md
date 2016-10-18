@@ -4,7 +4,7 @@ title: ไดโนเสาร์โครมบน OLED
 date: '2016-10-18T08:43:00.000+07:00'
 author: Pakkapon Phongthawee
 tags:
-- ประกาศ
+- คอมพิวเตอร์
 modified_time: '2016-10-18T08:43:00.000+07:00'
 thumbnail: /assets/images/thumbnail/chrome-dino.jpg
 ---
