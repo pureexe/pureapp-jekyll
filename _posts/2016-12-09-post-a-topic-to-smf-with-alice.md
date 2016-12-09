@@ -1,11 +1,11 @@
 ---
 layout: post
 title: สร้างกระทู้บน SMF ไปกับ Alice
-date: '2016-12-09T00:00:00.000+07:00'
+date: '2016-12-09T19:00:00.000+07:00'
 author: Pakkapon Phongthawee
 tags:
 - คอมพิวเตอร์
-modified_time: '2016-12-09T00:00:00.000+07:00'
+modified_time: '2016-12-09T19:00:00.000+07:00'
 thumbnail: /assets/images/thumbnail/behide-alice-with-smf.png
 ---
 อลิสคือ AI ที่สร้างขึ้นมาสำหรับงานจิปาถะในเว็บ [TAFASU](https://www.tafasu.com) ซึ่งนั้นก็รวมถึงงานโพสกระทู้เมื่อมีการอัปเดตอนิเมะใหม่ๆในเว็บด้วย โดยเว็บบอร์ดที่ใช้บน TAFASU นั่นคือ [Simple Forum Machine](http://www.simplemachines.org) หรือที่เรียกสั้นๆว่า **SMF**
