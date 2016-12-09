@@ -6,7 +6,7 @@ layout: default
           <meta itemscope itemprop="mainEntityOfPage"  itemType="https://schema.org/WebPage" itemid="{{ site.baseurl | prepend: site.url }}"/>
           {% if post.thumbnail %}
           {% assign selfHostThumbnail = post.thumbnail | split:"://" | size %}
-          <div class="card-image waves-effect waves-light">
+          <div class="card-image waves-effect waves-light" style="display: block;">
             <a href="{{ post.url }}" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
               <img src="{{ post.thumbnail }}" />
               <meta itemprop="url" content="{% if selfHostThumbnail == 1 %}{{ post.thumbnail | prepend: site.baseurl | prepend: site.url}}{% else %}{{post.thumbnail}}{% endif %}" />
