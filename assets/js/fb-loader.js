@@ -2,7 +2,7 @@ window.fbAsyncInit = function() {
     FB.init({
         appId   : '351070565012663', // pure's app id
         xfbml      : true,
-        version    : 'v2.3'
+        version    : 'v2.10'
     });
     $(document).trigger('fbInit');
         var FBlogin_master = function(){
