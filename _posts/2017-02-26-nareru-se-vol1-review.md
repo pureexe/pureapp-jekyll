@@ -5,7 +5,7 @@ date: '2017-02-26T23:20:00.000+07:00'
 author: Pakkapon Phongthawee
 tags:
 - คอมพิวเตอร์
-- Review
+- review
 - ชีวิตประจำวัน
 modified_time: '2017-02-26T23:20:00.000+07:00'
 thumbnail: /assets/images/thumbnail/nareru-se-vol1.jpg
