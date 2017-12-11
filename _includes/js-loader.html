@@ -13,7 +13,8 @@
                     id:46973523,
                     clickmap:true,
                     trackLinks:true,
-                    accurateTrackBounce:true
+                    accurateTrackBounce:true,
+                    ecommerce:"dataLayer"
                 });
             } catch(e) { }
         });
@@ -23,7 +24,7 @@
             f = function () { n.parentNode.insertBefore(s, n); };
         s.type = "text/javascript";
         s.async = true;
-        s.src = "https://cdn.jsdelivr.net/npm/yandex-metrica-watch/watch.js";
+        s.src = "https://mc.yandex.ru/metrika/watch.js";
 
         if (w.opera == "[object Opera]") {
             d.addEventListener("DOMContentLoaded", f, false);
