@@ -10,7 +10,7 @@
 <meta property="og:site_name" content="pureapp.in.th" />
 {% if page.layout == 'post' %}
 <meta property="og:type" content="article" />
-<meta property="article:publisher" content="https://www.facebook.com/appmadebypure" />
+<meta property="article:publisher" content="https://www.facebook.com/puresapp" />
 <meta property="article:author" content="https://www.facebook.com/pureexe" />
 <meta property="article:published_time" content="{{page.date}}" />
 <meta property="article:modified_time" content="{% if page.modified_time %}{{page.modified_time}}{% else %}{{site.time}}{% endif %}" />
@@ -30,20 +30,3 @@
 <meta name="twitter:domain" content="pureapp.in.th"/>
 <meta name="twitter:image" content="{% if page.thumbnail %}{% if selfHostThumbnail == 1 and jekyll.environment == 'production' %}{{ page.thumbnail | prepend: site.baseurl | prepend: site.url}}{% else %}{{page.thumbnail}}{% endif %}{% else %}{{"/assets/images/pureapp-logo-200.png" | prepend: site.baseurl | prepend: site.url }}{% endif %}"/>
 <meta name="twitter:creator" content="{{site.social.twitter}}"/>
-<script type="application/ld+json">
-{
-  "@context" : "http://schema.org",
-  "@type" : "Person",
-  "name" : "ภัคพล พงษ์ทวี",
-  "url" : "https://www.pureapp.in.th",
-  "url": "https://scontent-sin1-1.xx.fbcdn.net/hphotos-xaf1/v/t1.0-9/11986932_1138648829482833_7104928668010807124_n.jpg?oh=fe6ae3d18c6af146c3d0e3a49e2ed388&oe=569DEDFD",
-  "sameAs" : [
-    "https://www.facebook.com/pureexe",
-    "https://instagram.com/pureexe",
-    "https://www.linkedin.com/in/pureexe",
-    "https://www.github.com/pureexe",
-    "https://plus.google.com/+pakkaponphongtawee",
-    "https://twitter.com/PakkaponPH"
-  ]
-}
-</script>
