@@ -4,7 +4,7 @@ title: ส่งงานขึ้นสู่ bower
 date: '2015-12-20T09:28:00.000+07:00'
 author: Pakkapon Phongthawee
 tags:
-- คอมพิวเตอร์
+- computer
 modified_time: '2015-12-20T09:28:00.000+07:00'
 thumbnail: /assets/images/thumbnail/publish-to-bower.png
 ---

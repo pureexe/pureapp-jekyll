@@ -4,8 +4,7 @@ title: หรือว่าปัญหาหยุดการทำงาน�
 date: '2016-05-24T08:00:00.000+07:00'
 author: Pakkapon Phongthawee
 tags:
-- คอมพิวเตอร์
-- วิทยาศาสตร์
+- computer
 modified_time: '2016-05-24T08:00:00.000+07:00'
 thumbnail: /assets/images/thumbnail/halting-problem-solve-by-superposition.jpg
 ---

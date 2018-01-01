@@ -4,7 +4,6 @@ title: "สัมผัสกับ Micro:Bit"
 date: '2017-05-01T00:15:00.000+07:00'
 author: Pakkapon Phongthawee
 tags:
-- คอมพิวเตอร์
 - review
 modified_time: '2017-05-01T00:15:00.000+07:00'
 thumbnail: /assets/images/thumbnail/microbit-handon.jpg

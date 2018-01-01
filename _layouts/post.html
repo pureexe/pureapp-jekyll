@@ -4,12 +4,12 @@ layout: default
 <div class="post">
   <div class="card" itemscope itemtype='http://schema.org/BlogPosting'>
     <meta itemscope itemprop="mainEntityOfPage"  itemType="https://schema.org/WebPage" itemid="{{ site.baseurl | prepend: site.url }}"/>
-    <div class="card-titlepanel center">
+    <div class="card-titlepanel">
       <a href="#"><h1 class="post-title" itemprop="headline">{{ page.title }}</h1></a>
       <div itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
         {% if page.thumbnail %}
-        {% if page.thumbnail %}{% assign selfHostThumbnail = page.thumbnail | split:"://" | size %}{% endif %}
-        <meta itemprop="url" content="{% if selfHostThumbnail == 1 and jekyll.environment == 'production' %}{{ page.thumbnail | prepend: site.baseurl | prepend: site.url}}{% else %}{{page.thumbnail}}{% endif %}"/>
+        {% assign selfHostThumbnail = page.thumbnail | split:"://" | size %}
+        <meta itemprop="url" content="{% if selfHostThumbnail == 1 %}{{ page.thumbnail | prepend: site.baseurl | prepend: site.url}}{% else %}{{page.thumbnail}}{% endif %}"/>
         <meta itemprop="width" content="640" />
         <meta itemprop="height" content="312" />
         {% else %}
@@ -31,7 +31,7 @@ layout: default
         {{ content }}
       </article>
     </div>
-    <div class="card-action">
+    <div class="card-footer">
       <div itemprop="author" itemscope itemtype="https://schema.org/Person">
         {% if page.author %}
         <meta itemprop="name" content="{{page.author}}">
@@ -51,23 +51,23 @@ layout: default
         <meta itemprop="name" content="{{site.publisher}}">
         {% endif %}
       </div>
-      <span>
+      <div class="card-footer-item" style="justify-content: left;padding-left:1.5rem;padding-right:1.5rem;">
         <i class="mdi-device-access-time"></i>
         <meta content="{{ page.modified_time }}" itemprop="dateModified">
         <meta content="{{ page.date }}" itemprop="datePublished">
         <span class="date-display" style="margin-right:0.5em;">
-          <span class="date">{{ page.date | date: "%d %B" | replace:'January','มกราคม' | replace:'February','กุมภาพันธ์' | replace:'March','มีนาคม' | replace:'April','เมษายน' | replace:'May','พฤษภาคม' | replace:'June','มิถุนายน' | replace:'July','กรกฏาคม' | replace:'August','สิงหาคม' | replace:'September','กันยายน' | replace:'October','ตุลาคม' | replace:'November','พฤศจิกายน' | replace:'December','ธันวาคม' }} {{ page.date | date: "%Y" | plus:"543"}}</span>
+          <span class="date">{{ page.date | date: "%d"}} {% assign post_month = page.date | date: "%-m" | minus: 1 %}{{ site.month_name[post_month] }} {{ page.date | date: "%Y" | plus:"543"}}</span>
         </span>
-        <div style="display:inline-block">
+        <div class="tags">
           {% for tag in page.tags %}
-            <div class="chip">
-              <a href="{{site.baseurl}}/search?q={{tag}}&amp;type=tag" class="grey-text text-darken-1" rel="tag" style="margin-right:0px;">
-                {{tag}}
-              </a>
-            </div>
+            {% if site.tag_name[tag] %}
+              <a href="{{baseurl}}/tag/{{tag}}" class="tag" rel="tag ">{{site.tag_name[tag]}}</a>
+            {% else %}
+              <a href="#" class="tag" rel="tag">{{tag}}</a>
+            {% endif %}
           {% endfor %}
         </div>
-        </span>
+      </div>
     </div>
   </div>
   <div class="card" style="line-height:0px;">
@@ -75,13 +75,23 @@ layout: default
         <div class="fb-comments" data-href="{{ page.url | prepend: site.baseurl | prepend: site.url }}" data-width="100%" data-numposts="5"></div>
     </div>
   </div>
-  <div class="pagination" style="width:100%;text-align: center;">
+  <div class="pagination" style="width: 100%;padding: 0px;margin-left: 0px;margin-right: 0px;margin-top: 20px;margin-bottom: 20px;justify-content: space-between;">
     {% if page.next %}
-      <a style="float:left" href="{{ page.next.url }}" class="previous grey-text"><i class="mdi-image-navigate-before" style="font-size:48px;"></i></a>
+    <a class="button" href="{{ page.next.url }}" >
+      <span class="icon">
+        <i class="fa fa-arrow-left"></i>
+      </span>
+      <span>ใหม่กว่า</span>
+    </a>
     {% endif %}
-      <a href="/" class="grey-text"><i class="mdi-action-home" style="font-size:48px;"></i></a>
+    <div style="flex:1"></div>
     {% if page.previous %}
-      <a style="float:right" href="{{ page.previous.url }}" class="next grey-text"><i class="mdi-image-navigate-next" style="font-size:48px;"></i></a>
+    <a style="" class="button" href="{{ page.previous.url }}" >
+      <span>เก่ากว่า</span>
+      <span class="icon">
+        <i class="fa fa-arrow-right"></i>
+      </span>
+    </a>
     {% endif %}
   </div>
 </div>

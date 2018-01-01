@@ -1,20 +1,21 @@
 <!DOCTYPE html>
 <html>
   {% include head.html %}
-  <body>
+  <body style="display: flex;min-height: 100vh;flex-direction: column">
     {% include header.html %}
-    <div class="page-content">
+    <main style="flex:1;">
       <div class="container">
-        <div class="row" style="padding-top:10px;margin:0px;">
-          <div id="site-content" class="col l9 m12 s12">
+        <div class="columns is-desktop" style="max-width: 1280px;margin-left: auto;margin-right: auto;">
+          <div class="column is-three-quarters-desktop">
             {{ content }}
           </div>
-          <div class="col l3 m12 s12">
+          <div class="column is-one-quarter-desktop">
             {% include sidebar.html%}
           </div>
         </div>
       </div>
-    </div>
+    </main>
     {% include footer.html %}
+    {% include javascript.html %}
   </body>
 </html>

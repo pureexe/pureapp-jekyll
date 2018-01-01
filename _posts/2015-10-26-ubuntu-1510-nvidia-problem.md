@@ -4,8 +4,7 @@ title: "Ubuntu 15.10 ออกแล้ว แต่ใช้ Nvidia อย่�
 date: '2015-10-26T00:40:00.000+07:00'
 author: Pakkapon Phongthawee
 tags:
-- "ชีวิตประจำวัน"
-- "คอมพิวเตอร์"
+- computer
 modified_time: '2015-10-26T01:15:00.000+07:00'
 thumbnail: /assets/images/thumbnail/ubuntu-1510-nvidia-problem.png
 ---

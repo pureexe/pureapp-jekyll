@@ -4,7 +4,6 @@ title: ลองเล่น Yeoman ครั้งแรก
 date: '2016-05-11T19:15:00.000+07:00'
 author: Pakkapon Phongthawee
 tags:
-- คอมพิวเตอร์
 - review
 modified_time: '2016-05-11T19:15:00.000+07:00'
 thumbnail: /assets/images/thumbnail/try-yeoman.png

@@ -4,7 +4,7 @@ title: วิธีการใช้งาน A-LIE ขอหนึ่งวั
 date: '2016-03-31T21:30:00.000+07:00'
 author: Pakkapon Phongthawee
 tags:
-- คอมพิวเตอร์
+- announcement
 modified_time: '2016-03-31T21:30:00.000+07:00'
 thumbnail: /assets/images/thumbnail/how-to-use-alie.png
 ---

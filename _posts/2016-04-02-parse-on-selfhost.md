@@ -4,7 +4,7 @@ title: ใช้งาน Parse บนเครื่องของตัวเ
 date: '2016-04-03T09:45:00.000+07:00'
 author: Pakkapon Phongthawee
 tags:
-- คอมพิวเตอร์
+- computer
 modified_time: '2016-04-03T09:45:00.000+07:00'
 thumbnail: /assets/images/thumbnail/parse-on-selfhost.png
 ---

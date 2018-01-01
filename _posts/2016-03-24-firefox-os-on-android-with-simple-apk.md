@@ -4,7 +4,7 @@ title: ลองใช้ FirefoxOS ผ่าน Android ง่ายๆ แค�
 date: '2016-03-24T08:55:00.000+07:00'
 author: Pakkapon Phongthawee
 tags:
-- คอมพิวเตอร์
+- computer
 modified_time: '2016-03-24708:55:00.000+07:00'
 thumbnail: /assets/images/thumbnail/firefox-os-on-android-with-simple-apk.png
 ---

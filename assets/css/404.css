@@ -1,0 +1,19 @@
+.Aligner {
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.Aligner-item {
+	max-width: 50%;
+}
+.subtitle{
+	display:block;
+	margin-bottom: 10px;
+}
+.title{
+	color:#00d1b2;
+}
+.button.is-primary {
+	display: block;
+}

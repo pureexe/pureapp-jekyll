@@ -1,0 +1,34 @@
+.widget-postlist{
+  line-height: 1.8rem;
+  margin: 0px;
+  li.month{
+    margin-left:1em;
+  }
+  li.post{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    line-height: 1.5rem;
+    margin-left:2em;
+    list-style-type: circle;
+  }
+  .month ul, .year ul, input[type='checkbox']{
+      display: none;
+  }
+  .year input[type='checkbox']:checked ~ ul{
+    display: block;
+  }
+  .year input[type='checkbox'] ~ label::before{
+    font-family: fantasy;
+    content: '\25BC'
+  }
+  .year input[type='checkbox']:checked ~ label::before{
+      font-family: fantasy;
+    content: '\25BA'
+  }
+  .year input[type='checkbox'] ~ span.count{
+      display:inline;
+  }
+  .year input[type='checkbox']:checked ~ span.count{
+      display:none;
+  }
+}

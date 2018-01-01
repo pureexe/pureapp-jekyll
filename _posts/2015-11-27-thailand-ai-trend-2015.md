@@ -4,7 +4,7 @@ title: แนวโน้มการสร้างปัญญาประด�
 date: 2015-11-27T23:46:00.000+07:00
 author: Pakkapon Phongthawee
 tags:
-- วิทยาศาสตร์
+- science
 modified_time: 2015-11-27T23:46:00.000+07:00
 thumbnail: /assets/images/thumbnail/thailand-ai-trend-2015.png
 ---

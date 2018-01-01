@@ -4,7 +4,7 @@ title: เรื่องเล่าวันเกรดออก
 date: '2015-12-28T21:20:00.000+07:00'
 author: Pakkapon Phongthawee
 tags:
-- ชีวิตประจำวัน
+- diary
 modified_time: '2015-12-28T21:20:00.000+07:00'
 thumbnail: /assets/images/thumbnail/release-grade-day.jpg
 ---

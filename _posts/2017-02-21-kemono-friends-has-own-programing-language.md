@@ -4,7 +4,7 @@ title: อนิเมะ Kemono Friends มีภาษาคอมพิวเ
 date: '2017-02-21T07:36:00.000+07:00'
 author: Pakkapon Phongthawee
 tags:
-- คอมพิวเตอร์
+- computer
 modified_time: '2017-02-21T07:36:00.000+07:00'
 thumbnail: /assets/images/thumbnail/kemono-friends-have-own-programming-language.jpg
 ---

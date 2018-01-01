@@ -4,7 +4,7 @@ title: "ชีวิตของผมที่ไม่มีมือถือ
 date: '2015-11-01T09:20:00.000+07:00'
 author: Pakkapon Phongthawee
 tags:
-- "ชีวิตประจำวัน"
+- diary
 modified_time: '2015-11-01T10:00:00.000+07:00'
 thumbnail: /assets/images/thumbnail/live-without-phone.png
 ---

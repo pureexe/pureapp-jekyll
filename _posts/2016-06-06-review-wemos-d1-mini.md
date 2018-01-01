@@ -4,7 +4,6 @@ title: รีวิว WeMos D1 mini
 date: '2016-06-06T08:00:00.000+07:00'
 author: Pakkapon Phongthawee
 tags:
-- คอมพิวเตอร์
 - review
 modified_time: '2016-06-06T08:00:00.000+07:00'
 thumbnail: /assets/images/thumbnail/review-wemos-d1-mini.jpg

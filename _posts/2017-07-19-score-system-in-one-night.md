@@ -4,8 +4,7 @@ title: ประสบการณ์สร้างระบบดูคะแ�
 date: '2017-07-19T11:17:00.000+07:00'
 author: Pakkapon Phongthawee
 tags:
-- คอมพิวเตอร์
-- เว็บ
+- computer
 modified_time: '2016-07-17T11:17:00.000+07:00'
 thumbnail: '/assets/images/thumbnail/score-system-in-one-night.jpg'
 ---

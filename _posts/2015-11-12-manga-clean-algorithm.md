@@ -4,8 +4,7 @@ title: "อัลกอริทึมในการคลีนมังงะ
 date: '2015-11-12T01:13:00.000+07:00'
 author: Pakkapon Phongthawee
 tags:
-- "แรงบันดาลใจ"
-- "วิจัย"
+- diary
 modified_time: '2015-11-12T01:13:00.000+07:00'
 thumbnail: /assets/images/thumbnail/manga-clean-algorithm.png
 ---

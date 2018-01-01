@@ -4,7 +4,7 @@ title: ซิมพังในวันที่ไร้เน็ต
 date: '2016-09-15T18:00:00.000+07:00'
 author: Pakkapon Phongthawee
 tags:
-- ชีวิตประจำวัน
+- diary
 modified_time: '2016-09-15T18:00:00.000+07:00'
 thumbnail: /assets/images/thumbnail/my-sim-crash.jpg
 ---

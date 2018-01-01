@@ -1,7 +1,3 @@
-/*body{
-  -webkit-filter: grayscale(90%);
-  filter: grayscale(90%);
-}*/
 .markdown-render{
   font-size: 1.1rem;
   line-height: 1.85rem;
@@ -11,6 +7,15 @@
     margin-right: auto;
     display: block;
     max-width: 100%;
+  }
+  img[src$=".svg"]{
+    vertical-align: middle;
+    display: inline-block;
+  }
+  img[src$=".svg"].center-eq{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
   }
   h1, h2, h3, h4 {
     margin-top: 2rem;
@@ -38,6 +43,7 @@
     }
   }
   ol{
+    padding-left: 40px;
     li{
       list-style-type: decimal;
     }

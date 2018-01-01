@@ -18,7 +18,7 @@ redirect_from:
   - "/p/gender-ratio.html"
   - "/p/topchat.html"
 tags:
-- "ประกาศ"
+- announcement
 modified_time: '2015-09-27T19:27:55.960+07:00'
 thumbnail: https://2.bp.blogspot.com/-juho96tgEfw/VUJbS3Il1SI/AAAAAAAAZDs/zXxUU8k_koA/s1600/banner.png
 blogger_id: tag:blogger.com,1999:blog-3103072889085475591.post-5850537866913304529

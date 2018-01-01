@@ -4,7 +4,7 @@ title: สลับคำให้ถูกตำแหน่งด้วย Tha
 date: '2016-07-10T08:00:00.000+07:00'
 author: Pakkapon Phongthawee
 tags:
-- คอมพิวเตอร์
+- computer
 modified_time: '2016-07-10T08:00:00.000+07:00'
 thumbnail:
 ---

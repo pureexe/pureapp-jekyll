@@ -4,7 +4,7 @@ title: "ติดตั้ง แอป Node.js สำหรับ VPS Ubuntu �
 date: '2015-04-02T12:00:00.003+07:00'
 author: Pakkapon Phongthawee
 tags:
-- "สอน"
+- computer
 modified_time: '2015-09-27T19:19:38.413+07:00'
 thumbnail: /assets/images/thumbnail/nodejs-ubuntu-ajenti.png
 blogger_id: tag:blogger.com,1999:blog-3103072889085475591.post-217207736252831726

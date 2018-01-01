@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "คิดยังไงถึงเลือก Mciro:bit"
+title: "คิดยังไงถึงเลือก Micro:bit"
 date: '2017-04-20T14:30:00.000+07:00'
 author: Pakkapon Phongthawee
 tags:
-- คอมพิวเตอร์
+- review
 modified_time: '2017-04-20T14:30:00.000+07:00'
 thumbnail: /assets/images/thumbnail/why-i-choose-microbit.jpg
 ---

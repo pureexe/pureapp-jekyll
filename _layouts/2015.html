@@ -1,0 +1,347 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="generator" content="Jekyll v3.6.2">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{page.title}} ~ Pure's app</title>
+<meta name="description" content="เว็บนี้คือบล็อกส่วนตัวของเพียว (ภัคพล พงษ์ทวี) เขียนขึ้นเพื่อเผยแพร่ ความรู้และโปรแกรมที่สร้างขึ้น ผมหวังว่าทุกท่านที่เข้ามาจะได้รับประโยชน์ไม่มากก็น้อย" />
+<link rel='author' href='https://plus.google.com/113820425408268226106' />
+<link rel='publisher' href='https://plus.google.com/113820425408268226106' />
+<link rel="canonical" href="{{page.url | prepend: site.baseurl | prepend: site.url }}" />
+<meta property="og:locale" content="th_TH" />
+<meta property="og:title" content="{{page.title}}" />
+<meta property="og:description" content="เว็บนี้คือบล็อกส่วนตัวของเพียว (ภัคพล พงษ์ทวี) เขียนขึ้นเพื่อเผยแพร่ ความรู้และโปรแกรมที่สร้างขึ้น ผมหวังว่าทุกท่านที่เข้ามาจะได้รับประโยชน์ไม่มากก็น้อย" />
+<meta property="og:url" content="{{page.url | prepend: site.baseurl | prepend: site.url }}" />
+<meta property="og:site_name" content="pureapp.in.th" />
+<meta property="og:type" content="website" />
+<meta property="og:updated_time" content="2017-12-26 05:53:20 +0000" />
+<meta property="fb:admins" content="100000131794195" />
+<meta property='fb:app_id' content='351070565012663' />
+<meta property="og:image" content="https://www.pureapp.in.th/assets/images/pureapp-logo-200.png" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:description" content="เว็บนี้คือบล็อกส่วนตัวของเพียว (ภัคพล พงษ์ทวี) เขียนขึ้นเพื่อเผยแพร่ ความรู้และโปรแกรมที่สร้างขึ้น ผมหวังว่าทุกท่านที่เข้ามาจะได้รับประโยชน์ไม่มากก็น้อย" />
+<meta name="twitter:title" content="{{page.title}}" />
+<meta name="twitter:site" content="@PakkaponPH" />
+<meta name="twitter:domain" content="pureapp.in.th" />
+<meta name="twitter:image" content="https://www.pureapp.in.th/assets/images/pureapp-logo-200.png" />
+<meta name="twitter:creator" content="@PakkaponPH" />
+<link rel="shortcut icon" href="/favicon.ico">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/css/materialize.min.css">
+<style>
+body{display:flex;min-height:100vh;flex-direction:column}main{flex:1 0 auto}.highlight{margin-bottom:15px}a{color:#0d47a1}.container{padding-left:0%;padding-right:0%;width:85%}@media screen and (max-width: 600px){.container{width:100%}}body{background-color:#fafafa;padding:0px}#header-panel{position:relative}@media screen and (max-width: 993px){#header-panel{text-align:center}}#header-panel #site-title{line-height:1.4;color:white;font-size:24px;padding-left:15px}@media screen and (max-width: 993px){#header-panel #site-title{padding-left:0px}}#header-panel #site-description{line-height:1.4;color:white;padding-left:15px}@media screen and (max-width: 993px){#header-panel #site-description{padding-left:0px}}#header-panel #site-hamburger{position:absolute;right:0px;top:0px}@media screen and (max-width: 993px){#header-panel #site-hamburger{margin-top:15px;position:static}}#page-header{padding-top:15px;padding-bottom:15px}.card-titlepanel{border-bottom:1px solid rgba(160,160,160,0.2);padding:10px}.post-title{font-size:1.64rem;margin-top:0.8rem;margin-bottom:0.8rem;margin-left:0.4rem;margin-right:0.4rem}.collapsible-header{background-color:rgba(255,255,255,0)}li.archivedate{padding-bottom:0px;padding-top:0px;margin-top:-20px;margin-bottom:0px}.btn-at-topright{height:50px;width:50px;margin:3px}.btn-at-topright i{line-height:50px}.dropdown-content li>a,.dropdown-content li>span{font-size:1rem}#headersec{margin:0px;padding:0px}#Header1{margin:0px}.nav-wrapper>ul>li{padding:0px}@media screen and (max-width: 600px){.nav-wrapper>ul{padding:0px;height:56px;line-height:56px}}@media screen and (min-width: 600px){.nav-wrapper>ul{padding:0px;height:64px;line-height:64px}}.nav-wrapper>ul>li>ul>li{padding:0px}.nav-wrapper>ul>li>ul{padding:0px;line-height:64px}.widget ul{padding:0px}.widget{margin:0px}.widget>h2{font-size:22px;line-height:0;margin-top:30px;margin-bottom:30px}#tt-torrent a>img{max-width:100%;height:auto}.widget .post-body ul{padding:0;margin:0}.card-content a>img{max-width:100%;height:auto}.card-content a{margin-left:0px;margin-right:0px}.section{margin:0px;padding-top:10px;padding-bottom:10px}.dropdown-content{z-index:10}.blogtitle{font-size:1.8rem;margin-top:0.8rem;margin-bottom:0.8rem;margin-left:0.4rem;margin-right:0.4rem}.site-post-card-description{font-size:1.1rem;line-height:1.85rem;color:#444}.widget-postlist{line-height:1.8rem;margin:0px}.widget-postlist li.month{margin-left:1em}.widget-postlist li.post{margin-top:0.5rem;margin-bottom:0.5rem;line-height:1.5rem;margin-left:2em;list-style-type:circle}footer ul li{line-height:1.8rem}.card .cursor{font-family:fantasy;font-size:0.9rem}.markdown-render{font-size:1.1rem;line-height:1.85rem;color:#444}.markdown-render img{margin-left:auto;margin-right:auto;display:block;max-width:100%}.markdown-render h1,.markdown-render h2,.markdown-render h3,.markdown-render h4{margin-top:2rem;margin-bottom:1rem;font-weight:bold}.markdown-render h2{border-bottom:1px solid #eee;padding-bottom:0.7rem;font-size:1.64rem}.markdown-render h3{font-size:1.4rem}.markdown-render h4{font-size:1.2rem}.markdown-render strong{font-weight:bold}.markdown-render ul{padding-left:40px}.markdown-render ul li{list-style-type:circle}.markdown-render ol li{list-style-type:decimal}.markdown-render .card-content{margin-top:0px}.markdown-render p{margin-bottom:1rem!important;margin-top:1rem!important}.markdown-render p::first-letter{margin-left:2rem}.markdown-render .small-image{width:400px}.markdown-render .medium-image{width:640px}.markdown-render .middle-image{margin-left:auto;margin-right:auto;margin-top:1rem;margin-bottom:1rem;display:block}.markdown-render p>code{color:#e64946;font-family:Monaco,MonacoRegular,"Courier New",monospace!important;font-size:.9em}.markdown-render .margin-bottom{margin-bottom:1rem}.markdown-render li>p::first-letter{margin-left:0rem}pre.highlight{padding:16px;margin:1em 40px}.highlight{background:#f5f2f0;border:solid 1px rgba(51,51,51,0.12);box-shadow:0 2px 3px 0 rgba(0,0,0,0.1),0 2px 3px 0 rgba(0,0,0,0.05)}.highlight pre{position:relative;margin:0px;padding:16px}.highlight .c{color:#998;font-style:italic}.highlight .err{color:#a61717;background-color:#e3d2d2}.highlight .k{font-weight:bold}.highlight .o{font-weight:bold}.highlight .cm{color:#998;font-style:italic}.highlight .cp{color:#999;font-weight:bold}.highlight .c1{color:#998;font-style:italic}.highlight .cs{color:#999;font-weight:bold;font-style:italic}.highlight .gd{color:#000;background-color:#fdd}.highlight .gd .x{color:#000;background-color:#faa}.highlight .ge{font-style:italic}.highlight .gr{color:#a00}.highlight .gh{color:#999}.highlight .gi{color:#000;background-color:#dfd}.highlight .gi .x{color:#000;background-color:#afa}.highlight .go{color:#888}.highlight .gp{color:#555}.highlight .gs{font-weight:bold}.highlight .gu{color:#aaa}.highlight .gt{color:#a00}.highlight .kc{font-weight:bold}.highlight .kd{font-weight:bold}.highlight .kp{font-weight:bold}.highlight .kr{font-weight:bold}.highlight .kt{color:#458;font-weight:bold}.highlight .m{color:#099}.highlight .s{color:#d14}.highlight .na{color:teal}.highlight .nb{color:#0086B3}.highlight .nc{color:#458;font-weight:bold}.highlight .no{color:teal}.highlight .ni{color:purple}.highlight .ne{color:#900;font-weight:bold}.highlight .nf{color:#900;font-weight:bold}.highlight .nn{color:#555}.highlight .nt{color:navy}.highlight .nv{color:teal}.highlight .ow{font-weight:bold}.highlight .w{color:#bbb}.highlight .mf{color:#099}.highlight .mh{color:#099}.highlight .mi{color:#099}.highlight .mo{color:#099}.highlight .sb{color:#d14}.highlight .sc{color:#d14}.highlight .sd{color:#d14}.highlight .s2{color:#d14}.highlight .se{color:#d14}.highlight .sh{color:#d14}.highlight .si{color:#d14}.highlight .sx{color:#d14}.highlight .sr{color:#009926}.highlight .s1{color:#d14}.highlight .ss{color:#990073}.highlight .bp{color:#999}.highlight .vc{color:teal}.highlight .vg{color:teal}.highlight .vi{color:teal}.highlight .il{color:#099}
+</style>
+<link rel="alternate" type="application/rss+xml" title="Pure's app" href="https://www.pureapp.in.th/feed.xml" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/js/materialize.min.js"></script>
+<script>
+var showStaggeredList=function(selector){var time=0;$(selector).children().velocity({translateX:"-100px"},{duration:0});$(selector).children().each(function(){var self=$(this);$(this).velocity({opacity:"1",translateX:"0"},{duration:800,delay:time,easing:[60,10],complete:function(){$(this).removeAttr("style");}});time+=120;});}
+$(function(){var isPlayingNavMenu=false;$(".toggle-navmenu").click(function(){if(!isPlayingNavMenu){isPlayingNavMenu=true;$(".nav-menubar").hide();$("#nav-menu").show();$(".nav-menu-set").children().css("opacity",function(r){return 0;});showStaggeredList("#nav-menu-small");showStaggeredList("#nav-menu-medium");showStaggeredList("#nav-menu-large");var array=[$("#nav-menu-large").children().length,$("#nav-menu-medium").children().length,$("#nav-menu-small").children().length];var max_var=Math.max.apply(Math,array);setTimeout(function(){isPlayingNavMenu=false},(max_var*123)+ 800);}});$(".toggle-navapp").click(function(){if(!isPlayingNavMenu){isPlayingNavMenu=true;$(".nav-menubar").hide();$("#nav-app").show();$(".nav-app-set").children().css("opacity",function(r){return 0;});showStaggeredList("#nav-app-small");showStaggeredList("#nav-app-medium");showStaggeredList("#nav-app-large");var array=[$("#nav-app-large").children().length,$("#nav-app-medium").children().length,$("#nav-app-small").children().length];var max_var=Math.max.apply(Math,array);setTimeout(function(){isPlayingNavMenu=false},(max_var*123)+ 800);}});$(".toggle-navfollow").click(function(){if(!isPlayingNavMenu){isPlayingNavMenu=true;$(".nav-menubar").hide();$("#nav-follow").show();$(".nav-follow-set").children().css("opacity",function(r){return 0;});showStaggeredList("#nav-follow-small");showStaggeredList("#nav-follow-medium");showStaggeredList("#nav-follow-large");var array=[$("#nav-follow-large").children().length,$("#nav-follow-medium").children().length,$("#nav-follow-small").children().length];var max_var=Math.max.apply(Math,array);setTimeout(function(){isPlayingNavMenu=false},(max_var*123)+ 800);}});$(".toggle-navsearch").click(function(){$(".nav-menubar").hide();$("#nav-search").show();$("#search-on-input").focus();});$(".dropdown-navbutton").dropdown({inDuration:300,outDuration:225,constrain_width:false,hover:true,gutter:0,belowOrigin:true});$(".dropdown-button").dropdown({inDuration:300,outDuration:225,constrain_width:true,hover:false,gutter:0,belowOrigin:false});$("#site-moremenu").sideNav();$("#site-moreapp").sideNav();$("#site-morefollow").sideNav();$("#site-bottom-to-top-btn").click(function(){$("html, body").animate({scrollTop:0},"slow");});$(".collapsible").collapsible({accordion:false});$('.widget-postlist > .year > a,.widget-postlist > .year > .sublist > .month > a').click(function(event){event.preventDefault();$(this).parent().children('.sublist').toggle();if($(this).parent().children('.cursor').text()=='▼'){$(this).parent().children('.cursor').text('►');}else{$(this).parent().children('.cursor').text('▼');}});});
+</script>
+<script>
+window.fbAsyncInit=function(){FB.init({appId:'351070565012663',xfbml:true,version:'v2.10'});$(document).trigger('fbInit');var FBlogin_master=function(){FB.login(function(response){if(response.status==='connected'){$(document).trigger('fbLogin');}});}};(function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(d.getElementById(id)){return;}
+js=d.createElement(s);js.id=id;js.src="//connect.facebook.net/th_TH/sdk.js";fjs.parentNode.insertBefore(js,fjs);}(document,'script','facebook-jssdk'));
+</script>
+<script src="https://apis.google.com/js/platform.js" async defer></script>
+<meta name="theme-color" content="#212121">
+<link rel="icon" sizes="192x192" href="/assets/images/pureapp-logo-192.png">
+</head>
+<body>
+<header class="site-header">
+<div class="grey darken-1" id="page-header">
+<div class="container">
+<div id="header-panel">
+<div id="site-title">
+<a class="white-text" href="/">
+Pure's app
+</a>
+</div>
+<div class="grey-text text-lighten-4" id="site-description">
+ บล็อกเล็กๆของเพียว
+</div>
+<div id="site-hamburger">
+<a class="toggle-navmenu btn-floating btn-at-topright waves-effect waves-light grey lighten-1">
+<i class="mdi-navigation-menu"></i>
+</a>
+<a class="toggle-navapp btn-floating btn-at-topright waves-effect waves-light grey lighten-1">
+<i class="mdi-action-extension"></i>
+</a>
+<a class="toggle-navfollow btn-floating btn-at-topright waves-effect waves-light grey lighten-1">
+<i class="mdi-action-favorite-outline"></i>
+</a>
+<a class="toggle-navsearch btn-floating btn-at-topright waves-effect waves-light grey lighten-1">
+<i class="mdi-action-search"></i>
+</a>
+</div>
+</div>
+</div>
+</div>
+<nav class="grey darken-2 nav-menubar" id="nav-menu">
+<div class="container">
+<div class="nav-wrapper" style="text-align: center">
+<ul class="left hide-on-med-and-down nav-menu-set" id="nav-menu-large">
+<li>
+<a href="/">หน้าหลัก</a>
+</li>
+<li>
+<a class="dropdown-navbutton" data-activates="facebook-app-dropdown-large" href="#!">แอปเฟสบุ๊ค</a>
+</li>
+<li>
+<a href="https://www.facebook.com/puresapp" target="_blank">แฟนเพจ</a>
+</li>
+</ul>
+<ul class="hide-on-small-only hide-on-large-only nav-menu-set" id="nav-menu-medium" style="display: inline-block;">
+<li>
+<a href="/">หน้าหลัก</a>
+</li>
+<li>
+<a class="dropdown-navbutton" data-activates="facebook-app-dropdown-medium" href="#!">แอปเฟสบุ๊ค</a>
+</li>
+<li>
+<a href="https://www.facebook.com/puresapp" target="_blank">แฟนเพจ</a>
+</li>
+</ul>
+<ul class="hide-on-med-and-up nav-menu-set" id="nav-menu-small" style="display: inline-block;line-height: 56px;">
+<li>
+<a href="/"> หน้าหลัก</a>
+</li>
+<li>
+<a class="dropdown-navbutton" data-activates="facebook-app-dropdown-small" href="#!">แอปเฟสบุ๊ค</a>
+</li>
+<li>
+<a class="dropdown-navbutton" data-activates="menunav-dropdown-small" href="#!">
+<i class="mdi-navigation-more-horiz" style="font-size:1.5rem;"></i>
+</a>
+</li>
+</ul>
+<ul class="dropdown-content" id="facebook-app-dropdown-large">
+<li>
+<a href="https://www.pureapp.in.th/p/topcomment.html">ใครคอมเม้นคุณมากที่สุด</a>
+</li>
+<li>
+<a href="https://www.pureapp.in.th/p/toplike.html">ใครไลค์ฉันมากที่สุด</a>
+</li>
+<li>
+<a href="https://www.pureapp.in.th/status-post">ฉันอัพสเตตัสไปกี่ครั้งแล้ว</a>
+</li>
+<li>
+<a href="https://www.facebook.com/puresapp">แจ้งปัญหา</a>
+</li>
+</ul>
+<ul class="dropdown-content" id="facebook-app-dropdown-medium">
+<li>
+<a href="https://www.pureapp.in.th/p/fblive.html">ถ่ายทอดสดผ่านเฟสบุ๊ค</a>
+</li>
+<li>
+<a href="https://www.pureapp.in.th/p/topcomment.html">ใครคอมเม้นคุณมากที่สุด</a>
+</li>
+<li>
+<a href="https://www.pureapp.in.th/p/toplike.html">ใครไลค์ฉันมากที่สุด</a>
+</li>
+<li>
+<a href="https://www.pureapp.in.th/status-post">ฉันอัพสเตตัสไปกี่ครั้งแล้ว</a>
+</li>
+<li>
+<a href="https://www.facebook.com/puresapp">แจ้งปัญหา</a>
+</li>
+</ul>
+<ul class="dropdown-content" id="facebook-app-dropdown-small">
+<li>
+<a href="https://www.pureapp.in.th/p/fblive.html">ถ่ายทอดสดผ่านเฟสบุ๊ค</a>
+</li>
+<li>
+<a href="https://www.pureapp.in.th/p/topcomment.html">ใครคอมเม้นคุณมากที่สุด</a>
+</li>
+<li>
+<a href="https://www.pureapp.in.th/p/toplike.html">ใครไลค์ฉันมากที่สุด</a>
+</li>
+<li>
+<a href="https://www.pureapp.in.th/status-post">ฉันอัพสเตตัสไปกี่ครั้งแล้ว</a>
+</li>
+<li>
+<a href="https://www.facebook.com/puresapp">แจ้งปัญหา</a>
+</li>
+</ul>
+<ul class="dropdown-content" id="menunav-dropdown-small">
+<li>
+<a href="https://www.facebook.com/puresapp" target="_blank">แฟนเพจ</a>
+</li>
+</ul>
+</div>
+</div>
+</nav>
+<nav class="grey darken-2 nav-menubar" id="nav-app" style="display:none;">
+<div class="container">
+<div class="nav-wrapper" style="text-align: center">
+<ul class="left hide-on-med-and-down nav-app-set" id="nav-app-large">
+<li>
+<a href="#">แอปของผม</a>
+</li>
+<li>
+<a href="https://mumu.irin.in.th" target="_blank">มูมู่</a>
+</li>
+<li>
+<a href="https://irin.in.th/" target="_blank">ไอริน</a>
+</li>
+<li>
+<a href="https://github.com/pureexe/th-news" target="_blank">TH-news</a>
+</li>
+</ul>
+<ul class="hide-on-small-only hide-on-large-only nav-app-set" id="nav-app-medium" style="display: inline-block;">
+<li>
+<a href="#">แอปของผม</a>
+</li>
+<li>
+<a href="https://mumu.irin.in.th" target="_blank">มูมู่</a>
+</li>
+<li>
+<a href="https://irin.in.th/" target="_blank">ไอริน</a>
+</li>
+<li>
+<a href="https://github.com/pureexe/th-news" target="_blank">TH-news</a>
+</li>
+</ul>
+<ul class="hide-on-med-and-up nav-app-set" id="nav-app-small" style="display: inline-block;line-height: 56px;">
+<li>
+<a href="#">แอปของผม</a>
+</li>
+<li>
+<a href="https://mumu.irin.in.th" target="_blank">มูมู่</a>
+</li>
+<li>
+<a class="dropdown-navbutton" id="btn-menuapp-dropdown-small" data-activates="menuapp-dropdown-small" href="#!">
+<i class="mdi-navigation-more-horiz" style="font-size:1.5rem;"></i>
+</a>
+</li>
+</ul>
+<ul class="dropdown-content" id="menuapp-dropdown-small">
+<li>
+<a href="https://irin.in.th/" target="_blank">ไอริน</a>
+</li>
+<li>
+<a href="https://github.com/pureexe/th-news" target="_blank">TH-news</a>
+</li>
+</ul>
+</div>
+</div>
+</nav>
+<nav class="grey darken-2 nav-menubar" id="nav-follow" style="display:none;">
+<div class="container">
+<div class="nav-wrapper" style="text-align: center">
+<ul class="left hide-on-med-and-down nav-follow-set" id="nav-follow-large">
+<li>
+<a href="#">ติดตาม</a>
+</li>
+<li>
+<a href="https://www.facebook.com/puresapp" target="_blank">แฟนเพจ</a>
+</li>
+<li>
+<a href="https://github.com/pureexe" target="_blank">Github</a>
+</li>
+</ul>
+<ul class="hide-on-small-only hide-on-large-only nav-follow-set" id="nav-follow-medium" style="display: inline-block;">
+<li>
+<a href="#">ติดตาม</a>
+</li>
+<li>
+<a href="https://www.facebook.com/puresapp" target="_blank">แฟนเพจ</a>
+</li>
+<li>
+<a href="https://github.com/pureexe" target="_blank">Github</a>
+</li>
+</ul>
+<ul class="hide-on-med-and-up nav-follow-set" id="nav-follow-small" style="display: inline-block;line-height: 56px;">
+<li>
+<a href="#">ติดตาม</a>
+</li>
+<li>
+<a href="https://www.facebook.com/puresapp" target="_blank">แฟนเพจ</a>
+</li>
+<li>
+<a class="dropdown-navbutton" data-activates="menufollow-dropdown-small" href="#!">
+<i class="mdi-navigation-more-horiz" style="font-size:1.5rem;"></i>
+</a>
+</li>
+</ul>
+<ul class="dropdown-content" id="menufollow-dropdown-small">
+<li>
+<a href="https://github.com/pureexe" target="_blank">Github</a>
+</li>
+</ul>
+</div>
+</div>
+</nav>
+<nav class="grey darken-2 nav-menubar" id="nav-search" style="display:none;">
+<div class="container" style="height:100%;">
+<div class="nav-wrapper" style="text-align: center;height:100%;">
+<form action="/search " style="height:100%;">
+<div class="input-field" id="input-field-search" style="height:100%;">
+<input id="search-on-input" name="q" placeholder="ค้นหา" type="search" style="height:100%;"></i>
+<label for="search">
+<i class="mdi-action-search"></i>
+</label>
+<i class="mdi-navigation-close"></i>
+</div>
+</form>
+</div>
+</div>
+</nav>
+</header>
+<main>
+<div class="page-content">
+<div class="container">
+<div class="row" style="padding-top:10px;margin:0px;">
+<div id="site-content" class="col l9 m12 s12">
+<div class="post">
+<div class="card">
+<div class="card-titlepanel center">
+<a href="#"><h1 class="post-title">{{page.title}}</h1></a>
+</div>
+<div class="card-content">
+<article class="markdown-render">
+{{content}}
+</article>
+</div>
+</div>
+<div class="card">
+<div class="card-comment">
+<div class="fb-comments" data-href="{{page.url | prepend: site.baseurl | prepend: site.url }}" data-width="100%" data-numposts="5"></div>
+</div>
+</div>
+</div>
+</div>
+<div class="col l3 m12 s12">
+<div class="center">
+<div class="card" style="display: inline-block;max-width:100%;width:273px;margin-bottom: 0.5rem;overflow:hidden;">
+<div class="fb-page" data-href="https://www.facebook.com/puresapp" data-width="273" data-height="130" data-hide-cover="false" data-show-facepile="false" data-show-posts="false"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/puresapp"><a href="https://www.facebook.com/puresapp">Pure&#039;s app</a></blockquote></div></div>
+</div>
+</div>
+<div class="card">
+<div style="padding:1px 20px 1px 20px;">
+<ul style="line-height:1.8em">
+<li><a href="http://www.pureapp.in.th/p/fblive.html">ถ่ายทอดสดผ่านเฟสบุ๊ค</a></li>
+<li><a href="http://www.pureapp.in.th/p/whiteface.html">หน้าคุณขาวแค่ไหน</a></li>
+<li><a href="http://www.pureapp.in.th/p/topcomment.html">ใครคอมเม้นคุณมากที่สุด</a></li>
+<li><a href="http://www.pureapp.in.th/p/toplike.html">ใครไลค์ฉันมากที่สุด</a></li>
+<li><a href="http://www.pureapp.in.th/p/status-post.html">ฉันอัพสเตตัสไปกี่ครั้งแล้ว</a></li>
+<li><a href="http://www.facebook.com/puresapp">แจ้งปัญหา</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</main>
+<footer class="page-footer grey darken-1">
+<div class="footer-copyright grey darken-2">
+<div class="container" style="padding-left:10px;padding-right:10px;">
+© 2015 Pure's App
+<a class="grey-text text-lighten-4 right" href="#" id="site-bottom-to-top-btn"><i class="mdi-hardware-keyboard-arrow-up" style="font-size:36px;"></i></a></div>
+</div>
+</footer>
+<div id="fb-root"></div>
+</body>
+</html>

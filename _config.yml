@@ -24,3 +24,23 @@ plugins:
   - jekyll-redirect-from
   - jekyll-sitemap
   - jekyll-paginate
+month_name:
+  - มกราคม
+  - กุมภาพันธ์
+  - มีนาคม
+  - เมษายน
+  - พฤษภาคม
+  - มิถุนายน
+  - กรกฏาคม
+  - สิงหาคม
+  - กันยายน
+  - ตุลาคม
+  - พฤศจิกายน
+  - ธันวาคม
+tag_name:
+  announcement: ประกาศ
+  computer: คอมพิวเตอร์
+  diary: ชีวิตประจำวัน
+  mathematics: คณิตศาสตร์
+  review: รีวิว
+  science: วิทยาศาสตร์

@@ -1,4 +1,5 @@
+<div class="sidebar">
 {% include widget-facebook-pages.html %}
-{% include widget-sidelink.html %}
-{% if jekyll.environment == "production" %}{% include widget-postlist.html %}{% endif %}
+{% if jekyll.environment == "production" or 1 %}{% include widget-postlist.html %}{% endif %}
 {% comment %}{% include widget-adsense.html %}{% endcomment %}
+</div>

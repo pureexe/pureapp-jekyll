@@ -4,7 +4,7 @@ title: "สอนเขียนแอปเฟสบุ๊คบนบล็อ
 date: '2014-09-04T22:23:00.002+07:00'
 author: Pakkapon Phongthawee
 tags:
-- "สอน"
+- "computer"
 redirect_from:
   - "/2014/09/blog-post_6.html"
 modified_time: '2015-10-16T07:50:51.233+07:00'

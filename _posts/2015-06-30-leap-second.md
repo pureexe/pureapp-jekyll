@@ -4,7 +4,7 @@ title: "อธิกวินาที (Leap second)"
 date: '2015-06-30T15:23:00.003+07:00'
 author: Pakkapon Phongthawee
 tags:
-- "วิทยาศาสตร์"
+- computer
 modified_time: '2015-07-22T09:09:29.677+07:00'
 thumbnail: https://3.bp.blogspot.com/-6zx0FVc4UF0/Va77O7D8tAI/AAAAAAAAZ34/es2twyYmkAQ/s1600/leapsecond-new.png
 blogger_id: tag:blogger.com,1999:blog-3103072889085475591.post-5919471577124899642

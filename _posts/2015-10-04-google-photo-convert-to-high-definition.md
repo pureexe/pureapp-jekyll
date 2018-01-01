@@ -4,7 +4,7 @@ title: "แปลงรูปภาพเก่าใน Google Photos จาก
 date: '2015-10-04T14:00:00.000+07:00'
 author: Pakkapon Phongthawee
 tags:
-- "สอน"
+- announcement
 modified_time: '2015-10-04T14:43:00.000+07:00'
 thumbnail: /assets/images/thumbnail/google-photo-convert-to-high-definition.png
 ---

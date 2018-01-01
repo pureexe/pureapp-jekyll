@@ -4,7 +4,7 @@ title: ประสบการณ์ซื้อไลท์โนเวลค�
 date: '2017-02-09T15:15:00.000+07:00'
 author: Pakkapon Phongthawee
 tags:
-- ชีวิตประจำวัน
+- diary
 modified_time: '2017-02-09T15:15:00.000+07:00'
 thumbnail: /assets/images/thumbnail/first-time-ln.jpg
 ---

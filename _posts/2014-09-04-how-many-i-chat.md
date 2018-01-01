@@ -4,7 +4,7 @@ title: "ที่มาของ How many i chat? : ใครคุยกับ�
 date: '2014-09-04T00:02:00.001+07:00'
 author: Pakkapon Phongthawee
 tags:
-- "แรงบันดาลใจ"
+- "diary"
 modified_time: '2015-09-27T19:26:13.877+07:00'
 blogger_id: tag:blogger.com,1999:blog-3103072889085475591.post-1077458826247471389
 blogger_orig_url: http://www.pureapp.in.th/2014/09/how-many-i-chat.html

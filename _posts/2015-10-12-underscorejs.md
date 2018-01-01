@@ -4,8 +4,7 @@ title: "รู้จักกับ underscore.js แหล่งรวมฟั
 date: '2015-10-12T23:40:00.000+07:00'
 author: Pakkapon Phongthawee
 tags:
-- "สอน"
-- "คอมพิวเตอร์"
+- computer
 modified_time: '2015-10-12T23:43:00.000+07:00'
 thumbnail: /assets/images/thumbnail/underscorejs.png
 ---

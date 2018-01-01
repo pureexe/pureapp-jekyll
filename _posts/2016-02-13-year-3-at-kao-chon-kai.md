@@ -4,7 +4,7 @@ title: นศท.ปี 3 ที่เขาชนไก่
 date: '2016-02-13T10:55:00.000+07:00'
 author: Pakkapon Phongthawee
 tags:
-- ชีวิตประจำวัน
+- diary
 modified_time: '2016-02-13T10:55:00.000+07:00'
 thumbnail: /assets/images/thumbnail/year-3-at-kao-chon-kai.jpg
 ---

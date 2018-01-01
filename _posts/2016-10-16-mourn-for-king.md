@@ -4,7 +4,7 @@ title: ขอไว้อาลัยและน้อมส่งเสด็�
 date: '2016-10-18T09:00:00.000+07:00'
 author: Pakkapon Phongthawee
 tags:
-- ประกาศ
+- announcement
 modified_time: '2016-10-16T21:31:00.000+07:00'
 thumbnail: /assets/images/thumbnail/mourn-for-king.jpg
 ---

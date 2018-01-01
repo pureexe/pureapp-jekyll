@@ -4,7 +4,7 @@ title: เขียนปลั๊กอินให้ Gulp.js
 date: '2015-12-19T15:49:00.000+07:00'
 author: Pakkapon Phongthawee
 tags:
-- คอมพิวเตอร์
+- computer
 modified_time: '2015-12-19T15:49:00.000+07:00'
 thumbnail: /assets/images/thumbnail/try-gulp.png
 ---

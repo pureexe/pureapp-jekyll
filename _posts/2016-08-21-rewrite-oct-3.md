@@ -4,7 +4,7 @@ title: Rewrite 3 ตุลาคม
 date: '2016-08-21T18:00:00.000+07:00'
 author: Pakkapon Phongthawee
 tags:
-- เกม
+- diary
 modified_time: '2016-08-21T18:00:00.000+07:00'
 thumbnail: /assets/images/post/rewrite/oct3-kotori.jpg
 ---

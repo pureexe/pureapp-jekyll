@@ -4,8 +4,7 @@ title: สถิติการเขียนโปรแกรมของผ�
 date: '2016-01-13T19:40:00.000+07:00'
 author: Pakkapon Phongthawee
 tags:
-- คอมพิวเตอร์
-- ชีวิตประจำวัน
+- diary
 modified_time: '2016-01-01T10:10:00.000+07:00'
 thumbnail: /assets/images/thumbnail/my-programming-stats-in-2015.jpg
 ---

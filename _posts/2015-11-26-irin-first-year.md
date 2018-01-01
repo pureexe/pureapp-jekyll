@@ -4,7 +4,7 @@ title: 'ปีแรกของไอริน'
 date: '2015-11-26T09:21:00.000+07:00'
 author: Pakkapon Phongthawee
 tags:
-- ไอริน
+- diary
 modified_time: '2015-11-26T09:21:00.000+07:00'
 thumbnail: /assets/images/thumbnail/irin-first-year.png
 ---

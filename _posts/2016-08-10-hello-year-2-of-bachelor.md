@@ -4,7 +4,7 @@ title: สวัสดีมหาลัยปี 2
 date: '2016-08-10T23:30:00.000+07:00'
 author: Pakkapon Phongthawee
 tags:
-- ชีวิตประจำวัน
+- diary
 modified_time: '2016-08-10T23:30:00.000+07:00'
 thumbnail: /assets/images/thumbnail/hello-year-2-of-bachelor.jpg
 ---

@@ -4,8 +4,7 @@ title: "บล็อกนี้ย้ายไปใช้ Jekyll แล้ว�
 date: '2015-10-01T11:03:00.000+07:00'
 author: Pakkapon Phongthawee
 tags:
-- "ประกาศ"
-- "ชีวิตประจำวัน"
+- announcement
 modified_time: '2015-09-27T14:27:46.691+07:00'
 thumbnail: /assets/images/thumbnail/move-to-jekyll.png
 ---
