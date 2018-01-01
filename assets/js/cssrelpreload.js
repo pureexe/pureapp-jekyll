@@ -4,7 +4,6 @@
 - enabling async CSS loading in browsers that do not support rel=preload
 - applying rel preload css once loaded, whether supported or not.
 */
-document.addEventListener('DOMContentLoaded', function(){
 (function( w ){
 	"use strict";
 	// rel=preload support test
@@ -103,4 +102,3 @@ document.addEventListener('DOMContentLoaded', function(){
 		w.loadCSS = loadCSS;
 	}
 }( typeof global !== "undefined" ? global : this ) );
-});
