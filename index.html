@@ -3,7 +3,7 @@ layout: default
 ---
       <div class="index-post">
         {% for post in paginator.posts %}
-        <div class="card" itemscope itemtype='http://schema.org/BlogPosting' style="margin-bottom:10px;">
+        <div class="card" itemscope itemtype='http://schema.org/BlogPosting' style="margin-bottom:10px;margin-top: 10px;">
           <div class="card-image">
             <meta itemscope itemprop="mainEntityOfPage"  itemType="https://schema.org/WebPage" itemid="{{ site.baseurl | prepend: site.url }}" />
             {% if post.thumbnail %}
