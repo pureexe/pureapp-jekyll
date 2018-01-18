@@ -1,7 +1,7 @@
 ---
 layout: page
 title: ผลงานการแปล
-permalink: /work/translation
+permalink:
 ---
 ผลงานการแปลดังต่อไปนี้ ได้รับอนุญาตให้แปลและเผยแพร่แล้ว
 

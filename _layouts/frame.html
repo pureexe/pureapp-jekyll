@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  <body style="display: flex;min-height: 100vh;flex-direction: column">
+    {% include header.html %}
+    <main style="flex:1;">
+      {{content}}
+    </main>
+    {% include footer.html %}
+    {% include javascript.html %}
+  </body>
+</html>
