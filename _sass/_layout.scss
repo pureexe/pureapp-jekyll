@@ -16,3 +16,14 @@ footer{
   margin-top: 20px;
 }
 /*position:sticky;top:0*/
+
+@media only screen and (max-width: 768px)  {
+  .panel-main{
+    padding: 0px;
+  }
+  .post, .index-post{
+    .card-content{
+      padding: 10px;
+    }
+  }
+}
