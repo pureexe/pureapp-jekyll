@@ -46,7 +46,7 @@ thumbnail: /assets/images/thumbnail/numerical-integration.jpg
 
 ![](/assets/images/post/numerical-integration/simpson-rule.svg){: .center-eq}
 
-สามารถเขียนเป็นโค้ดภาษาซีหาอินทิเกรตของ ![](/assets/images/post/numerical-integration/x2.svg) style="display:inline-block;"/> บนช่วง 0.5 ถึง 1 โดยให้ช่วง n = 100 ได้ดังนี้
+สามารถเขียนเป็นโค้ดภาษาซีหาอินทิเกรตของ ![](/assets/images/post/numerical-integration/x2.svg) บนช่วง 0.5 ถึง 1 โดยให้ช่วง n = 100 ได้ดังนี้
 <script src="https://gist.github.com/pureexe/21c4a9f56a4dbb1846cc32dc4f6275be.js"></script><noscript><a href="https://gist.github.com/pureexe/21c4a9f56a4dbb1846cc32dc4f6275be.js">simpson_rule.c</a></noscript>
 
 จากโค้ดจะได้ผลลัพธ์ว่า `Trapzoid = 0.291667` และส่วนค่าจริงนั่นได้ว่า `Exact = 0.291667` ซึ่งจะเห็นว่าค่าที่ได้นั้นใกล้เคียงกับผลลัพธ์ของการอินทิเกรตมาก แต่การอินทิเกรตโดยใช้วิธีซิมสันั้นจะมีค่าคลาดเคลื่อนอยู่ ซึ่งเราสามารถคำนวณค่าคลาดเคลื่อนได้จาก
