@@ -17,6 +17,14 @@ redirect_from:
   - "/p/status-photo.html"
   - "/p/gender-ratio.html"
   - "/p/topchat.html"
+  - "/p/topcomment.html"
+  - "/p/status-post.html"
+  - "/p/toplike.html"
+  - "/p/whiteface.html"
+  - "/topcomment/"
+  - "/toplike/"
+  - "/whiteface/"
+  - "/status-post/"
 tags:
 - announcement
 modified_time: '2015-09-27T19:27:55.960+07:00'
