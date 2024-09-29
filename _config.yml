@@ -5,7 +5,7 @@ description: เว็บนี้คือบล็อกส่วนตัว�
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://www.pureapp.in.th" # the base hostname & protocol for your site
 repo: https://github.com/pureexe/www.pureapp.in.th # repo path for amp support
-permalink: /:year/:month/:title.html
+permalink: /blog/:title.html
 author: ภัคพล พงษ์ทวี
 publisher: Pure's app
 social:
