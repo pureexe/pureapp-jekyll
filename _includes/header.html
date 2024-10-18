@@ -1,24 +1,25 @@
 <header style="padding-bottom:10px;">
   <nav class="navbar is-transparent has-shadow">
-        <div class="navbar-brand">
+        <input type="checkbox" id="menu-burger"/>
+        <div id="navbar-brand" class="navbar-brand">
           <a class="navbar-item" href="/">
             <img src="/assets/images/pureapp-logo-2017.png" alt="Pure's app บล็อกเล็กๆ ของเพียว" width="112" height="28">
           </a>
-          <div class="navbar-burger burger" data-target="nav-menu">
-            <span></span>
-            <span></span>
-            <span></span>
-          </div>
+          <a role="button" class="navbar-burger" data-target="nav-menu" aria-label="menu" aria-expanded="false">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
         </div>
-        <label for="menu-burger" id="menu-burger-label"></label>
-        <input type="checkbox" id="menu-burger"/>
+        <label for="menu-burger" id="menu-burger-label"></label>        
         <div id="nav-menu" class="navbar-menu">
           <div class="navbar-start">
             <a class="navbar-item" href="/">
               หน้าแรก
             </a>
             <div class="navbar-item has-dropdown is-hoverable">
-              <a class="navbar-link" href="/documentation/overview/start/">
+              <a class="navbar-link" href="๒">
                 บทความ
               </a>
               <div class="navbar-dropdown is-boxed">
@@ -44,7 +45,7 @@
               </div>
             </div>
             <div class="navbar-item has-dropdown is-hoverable">
-              <a class="navbar-link" href="/documentation/overview/start/">
+              <a class="navbar-link" href="๒">
                 ผลงาน
               </a>
               <div class="navbar-dropdown is-boxed">

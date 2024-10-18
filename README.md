@@ -18,3 +18,9 @@ bundle config set --local path 'vendor/bundle'
 bundle install
 bundle exec jekyll serve --draft
 ```
+
+## Production environment for powershell 
+```
+$env:JEKYLL_ENV="production"
+bundle exec jekyll serve 
+```

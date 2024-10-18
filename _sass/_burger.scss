@@ -8,6 +8,16 @@
   #menu-burger:checked ~ #nav-menu {
     display: block !important;
   }
+  #menu-burger:checked ~ .navbar-brand .navbar-burger span:nth-child(3), #menu-burger:checked ~ .navbar-brand .navbar-burger span:nth-child(4) {
+    opacity: 0;
+  }
+  #menu-burger:checked ~ .navbar-brand .navbar-burger span:first-child {
+    transform: rotate(-45deg)
+  }
+  #menu-burger:checked ~ .navbar-brand .navbar-burger span:nth-child(2) {
+    transform: rotate(45deg)
+  }  
+  
   #menu-burger-label{
       display: block;
       height: 3.25rem;
