@@ -15,7 +15,15 @@
 footer{
   margin-top: 20px;
 }
-/*position:sticky;top:0*/
+
+.toast {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1000;
+  display: none; /* Hidden by default */
+}
 
 @media only screen and (max-width: 768px)  {
   .panel-main{
