@@ -26,4 +26,10 @@
       top: 0;
       right: 0;
   }
+
+}
+.navbar-burger-border{
+  color: hsl(var(--bulma-button-h),var(--bulma-button-s),var(--bulma-button-color-l));
+  border-color: hsl(var(--bulma-button-h),var(--bulma-button-s),calc(var(--bulma-button-border-l) + var(--bulma-button-border-l-delta)));
+  border-style: var(--bulma-button-border-style); border-width:var(--bulma-button-border-width);
 }

@@ -12,10 +12,17 @@ const closeToast = document.getElementById('closeToast');
 // Set URL to share as the current page's URL
 const urlToShare = window.location.href;
 
-// Open the modal
-shareButton.addEventListener('click', function() {
+function onClickShareButton() {
     shareModal.classList.add('is-active');
-});
+}
+
+// Open the modal
+if(shareButton){
+    shareButton.addEventListener('click', function() {
+        onClickShareButton();
+    });
+    
+}
 
 // Close the modal
 modalClose.addEventListener('click', function() {
@@ -48,6 +55,8 @@ function showToast() {
 }
 
 // Close toast manually (optional)
-closeToast.addEventListener('click', function() {
-    toast.style.display = 'none';
-});
+if(closeToast){
+    closeToast.addEventListener('click', function() {
+        toast.style.display = 'none';
+    });
+}

@@ -5,7 +5,28 @@
           <a class="navbar-item" href="/">
             <img src="/assets/images/pureapp-logo-2017.png" alt="Pure's app บล็อกเล็กๆ ของเพียว" width="112" height="28">
           </a>
-          <a role="button" class="navbar-burger" data-target="nav-menu" aria-label="menu" aria-expanded="false">
+          <div class="is-hidden-desktop	" style="flex:1"></div>
+          <div class="navbar-item is-hidden-desktop">
+            <div class="field is-grouped">
+              <p class="control">
+                <a class=" button" href="#" onclick="toggleLightDarkTheme()">
+                  <span class="icon">
+                    <i class="fa fa-moon-o"></i>
+                  </span>
+                </a>
+              </p>
+              <p class="control">
+                <a class=" button " href="#" onclick="onClickShareButton()">
+                  <span class="icon">
+                    <i class="fa fa-share"></i>
+                  </span>
+                </a>
+              </p>
+                              
+            </div>
+          </div>
+
+          <a role="button" class="button navbar-burger navbar-burger-border" data-target="nav-menu" aria-label="menu" aria-expanded="false">
             <span aria-hidden="true"></span>
             <span aria-hidden="true"></span>
             <span aria-hidden="true"></span>
@@ -63,17 +84,17 @@
           </div>
 
           <div class="navbar-end">
-            <div class="navbar-item">
-              <div class="field is-grouped">
+            <div class="navbar-item is-hidden-touch">
+              <div class="field is-grouped ">
                 <p class="control">
-                  <a class="bd-tw-button button" href="#" onclick="toggleLightDarkTheme()">
+                  <a class=" button" href="#" onclick="toggleLightDarkTheme()">
                     <span class="icon">
                       <i class="fa fa-moon-o"></i>
                     </span>
                   </a>
                 </p>
                 <p class="control">
-                  <a id="shareButton" class="bd-tw-button button is-link" href="#">
+                  <a class=" button is-link" href="#" onclick="onClickShareButton()">
                     <span class="icon">
                       <i class="fa fa-share"></i>
                     </span>
