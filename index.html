@@ -58,7 +58,7 @@ layout: default
                 <div style="margin-top: 1rem;">
                   <meta content="{{ post.date }}" itemprop="datePublished">
                   <meta content="{{ post.modified_time }}" itemprop="dateModified">
-                  <time style="display:inline-block;" ="{{post.date}}"><i class="fa fa-clock-o" aria-hidden="true"></i> {{ post.date | date: "%d"}} {% assign post_month = post.date | date: "%-m" | minus: 1 %}{{ site.month_name[post_month] }} {{ post.date | date: "%Y" | plus:"543"}}</time>
+                  <time style="display:inline-block;"><i class="fa fa-clock-o" aria-hidden="true"></i> {{ post.date | date: "%d"}} {% assign post_month = post.date | date: "%-m" | minus: 1 %}{{ site.month_name[post_month] }} {{ post.date | date: "%Y" | plus:"543"}}</time>
                   <div class="tags" style="margin-left:10px;display:inline-block;">
                   {% for tag in post.tags %}
                     {% if site.tag_name[tag] %}
