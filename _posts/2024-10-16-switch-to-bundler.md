@@ -3,6 +3,7 @@ layout: post
 title: ตั้ง bundle ให้กับ Jekyll ไว้เวลาย้ายเครื่องจะได้ไม่ลำบาก
 date: '2024-10-16T18:59:00.000+07:00'
 author: Pakkapon Phongthawee
+thumbnail: /assets/images/thumbnail/jekyll-not-support-amp.png
 tags:
 - computer
 modified_time: '2024-10-16T18:59:00.000+07:00'
