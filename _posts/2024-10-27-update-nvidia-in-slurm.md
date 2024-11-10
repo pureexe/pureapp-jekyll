@@ -5,6 +5,7 @@ date: '2024-10-27T03:10:00.000+07:00'
 author: Pakkapon Phongthawee
 tags:
 - computer
+thumbnail: /assets/images/thumbnail/update-nvidia-in-slurm.jpg
 modified_time: '2024-10-27T03:10:00.000+07:00'
 ---
 

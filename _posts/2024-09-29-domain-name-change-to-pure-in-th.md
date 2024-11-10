@@ -5,6 +5,7 @@ date: '2024-09-29T00:00:00.000+07:00'
 author: Pakkapon Phongthawee
 tags:
 - diary
+thumbnail: /assets/images/thumbnail/domain-name-change-to-pure-in-th.jpg
 modified_time: '2024-09-29T12:47:00.000+07:00'
 ---
 

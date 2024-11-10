@@ -5,6 +5,7 @@ date: '2024-10-20T20:10:00.000+07:00'
 author: Pakkapon Phongthawee
 tags:
 - computer
+thumbnail: /assets/images/thumbnail/copy-faster-with-rclone.jpg
 modified_time: '2024-10-20T20:10:00.000+07:00'
 ---
 
