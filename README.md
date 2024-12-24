@@ -16,7 +16,7 @@ We already to switch to bundler
 ```
 bundle config set --local path 'vendor/bundle'  
 bundle install
-bundle exec jekyll serve --draft
+bundle exec jekyll serve --drafts
 ```
 
 ## Production environment for powershell 
